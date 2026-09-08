@@ -1,0 +1,142 @@
+[
+  {
+    "id": "SCHEME001",
+    "name": "Scheme for Adolescent Girls (SAG)",
+    "description": "Under Mission Saksham Anganwadi and Poshan 2.0, this scheme provides nutritional, health, education and skilling support to adolescent girls aged 14 to 18 in identified areas.",
+    "benefits": [
+      "Supplementary nutrition",
+      "IFA supplementation",
+      "Health check-ups",
+      "Nutrition and health education",
+      "Skill development"
+    ],
+    "eligibility": {
+      "gender": ["female"],
+      "age_min": 14,
+      "age_max": 18,
+      "geography": {
+        "type": "restricted",
+        "regions": [
+          "Aspirational Districts",
+          "North-Eastern States"
+        ]
+      }
+    },
+    "documents": [
+      "Proof of age",
+      "Aadhaar, where applicable"
+    ],
+    "source": "Ministry of Women and Child Development, Government of India",
+    "source_url": "https://wcd.nic.in"
+  },
+
+  {
+    "id": "SCHEME002",
+    "name": "Post Graduate Indira Gandhi Scholarship for Single Girl Child",
+    "description": "UGC scholarship providing financial assistance to eligible single girl children pursuing the first year of a regular, full-time Master's degree in a recognized university, college or institution in India.",
+    "benefits": [
+      "₹36,200 per year",
+      "Scholarship for 2 years"
+    ],
+    "eligibility": {
+      "gender": ["female"],
+      "age_max": 30,
+      "geography": {
+        "type": "national"
+      },
+      "student_status": ["pg_first_year"],
+      "course_mode": ["regular_full_time"],
+      "single_girl_child": true
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Proof of admission",
+      "Joining report",
+      "Affidavit confirming single girl child status",
+      "Bank passbook",
+      "Birth Certificate or Class 10 marksheet"
+    ],
+    "source": "University Grants Commission (UGC), Government of India",
+    "source_url": "https://www.ugc.gov.in/Scholarships/stu_Scholarship4"
+  },
+
+  {
+    "id": "SCHEME003",
+    "name": "KIRAN Mobility Scheme",
+    "description": "A Department of Science and Technology initiative under KIRAN supporting women scientists facing relocation challenges so they can continue research at a new location.",
+    "benefits": [
+      "Monthly fellowship / consolidated salary",
+      "Research grant",
+      "Manpower support where applicable"
+    ],
+    "eligibility": {
+      "gender": ["female"],
+      "occupation": [
+        "scientist",
+        "researcher",
+        "academician"
+      ],
+      "geography": {
+        "type": "national"
+      },
+      "relocation_reason": [
+        "marriage",
+        "spouse_transfer",
+        "children_education",
+        "care_of_ailing_parents"
+      ]
+    },
+    "documents": [
+      "Identity proof",
+      "Research proposal",
+      "Proof of employment",
+      "Relocation proof",
+      "Academic certificates",
+      "Professional certificates",
+      "Bank account details"
+    ],
+    "source": "Department of Science and Technology, Government of India",
+    "source_url": "https://dst.gov.in/node/1562"
+  },
+
+  {
+    "id": "SCHEME004",
+    "name": "Mahila Samriddhi Yojana",
+    "description": "A financing scheme supporting eligible women from disadvantaged social and economic categories in starting or expanding income-generating activities.",
+    "benefits": [
+      "Financial assistance / loan",
+      "Support for income-generating activities",
+      "Training support where applicable"
+    ],
+    "eligibility": {
+      "gender": ["female"],
+      "age_min": 18,
+      "age_max": 55,
+      "income_max": 300000,
+      "occupation": [
+        "entrepreneur",
+        "self_employed",
+        "SHG_member"
+      ],
+      "social_category": [
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "geography": {
+        "type": "national"
+      }
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Identity Proof",
+      "Address Proof",
+      "Income Certificate",
+      "Caste / Category Certificate, where applicable",
+      "Bank Account Details",
+      "Photograph"
+    ],
+    "source": "Government of India financing agencies",
+    "source_url": "https://nsfdc.nic.in/en/mahila-samriddhi-yojana"
+  }
+]
