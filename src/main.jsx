@@ -25,6 +25,130 @@ const LANGUAGES = [
 
 const TRANSLATIONS = {
   English: {
+    finVerifiedSchemes: 'Verified Schemes',
+    finGovPrograms: 'Government programs matching your location & requirements.',
+    finSearchPlaceholder: 'Search by keyword or scheme',
+    finCheckEligibility: 'Check Eligibility',
+    finBudgetTracking: 'Monthly Budget Tracking',
+    finExpenseTracker: 'Expense Tracker',
+    finAddExpense: 'Add Expense',
+    finCancel: 'Cancel',
+    finSpent: 'Spent ₹',
+    finOf: 'of ₹',
+    finRemaining: 'remaining in monthly allowance',
+    finDescPlaceholder: 'Description (e.g. Groceries, School fees…)',
+    finAmountPlaceholder: 'Amount (₹)',
+    finSaveExpense: 'Save Expense',
+    finNoExpenses: 'No expenses recorded yet',
+    finClickAdd: 'Click "+ Add Expense" above to<br/>track your daily household expenditures.',
+    finUsageOverview: 'Usage Overview',
+    finMonthlyLimit: 'Monthly Limit & Alerts',
+    finBudgetUtilized: 'Budget Utilized',
+    finBudgetCheckin: 'Budget Check-in',
+    finYouHave: 'You have ₹',
+    finRemainingMonth: 'remaining this month.',
+    finCloseLimit: ' You\'re close to your monthly limit for shopping.',
+    finComfortable: ' You are comfortably within your monthly allocation.',
+    finProTip: 'Pro-Tip',
+    finProTipDesc: 'Putting just ₹200/month into Sukanya Samriddhi or PPF earns 8.2% guaranteed return.',
+    finSavingsGoals: 'Savings Goals',
+    finSetGoals: 'Set your goals to stay motivated and plan better.',
+    finGoalsSet: 'goals set',
+    finUpdateGoal: 'Update Goal',
+    finAddGoal: 'Add Goal',
+    finCheckFullEligibility: 'Check Full Eligibility & Apply',
+    livCareerAdv: 'Career Advancement',
+    livResumeCreator: 'Professional Resume / CV Creator',
+    livAtsFriendly: 'ATS-friendly formats designed for healthcare, retail, coordinator, and office roles.',
+    livBuildResume: 'Build My Resume',
+    livAiVoice: 'AI Voice Practice',
+    livInterviewSim: 'Interview Simulator',
+    livPracticeReal: 'Practice real interview questions out loud in your language. Receive instant AI scores for confidence, clarity, and tone.',
+    livStartVoice: 'Start Voice Practice',
+    livVideoGuides: '🎬 <strong>Video Guides:</strong> Watch 5-minute video tutorials on answering salary questions and introducing your past achievements confidently.',
+    safProtection: '24/7 Protection & Rapid Response',
+    safAssistance: 'Immediate Emergency Assistance',
+    safPrivateDispatch: 'Private emergency dispatch, discreet exit simulation, and verified helplines.',
+    safActivateSOS: 'Activate Emergency SOS',
+    safDiscreetExit: 'Discreet Exit Call',
+    safSimulatesCall: 'Simulates an incoming mobile phone call to exit uncomfortable or tense situations discreetly.',
+    safShareLocation: 'Share Live Location',
+    safGeneratesLink: 'Generates a private 2-hour encrypted GPS tracking link to send to trusted contacts.',
+    safCopyLink: 'Copy Tracking Link',
+    safLinkExpires: 'This secure tracking link expires in 2 hours.',
+    safEmergencyContacts: 'Emergency Contacts',
+    safDesignateContacts: 'Designate trusted contacts who will immediately receive your location during an SOS.',
+    safManageContacts: 'Manage Contacts',
+    safClose: 'Close',
+    rigExactScripts: 'Exact Word-for-Word Scripts',
+    rigKnowWhatToSay: 'Know What to Say',
+    rigHereIsWhat: 'Here is what you can say, word for word, if this happens — practical, assertive, and legal.',
+    rigListenOutLoud: 'Listen out loud',
+    rigCopyScript: 'Copy Script',
+    rigCopied: 'Copied!',
+    rigPlainExplainers: 'Plain-Language Explainers',
+    rigLegalProtections: 'Know Your Legal Protections',
+    rigUnderstandLegal: 'Understand your legal standing in plain words without confusing legal jargon.',
+    rigWorkplacePosh: 'Workplace & POSH Protection',
+    rigMandatoryICC: 'Mandatory ICC committees in organizations with 10+ employees.',
+    rigEqualProperty: 'Equal Property & Inheritance Rights',
+    rigEqualRights: 'Equal rights in ancestral property under Hindu Succession Act.',
+    rigProtectionDV: 'Protection from Domestic Violence',
+    rigRightToReside: 'Right to reside in shared household, interim relief & protection orders.',
+    rigFreeLegalAid: 'Free Legal Aid (NALSA)',
+    rigEveryWoman: 'Every woman in India is legally entitled to free advocates in any court.',
+    rigReadFullGuide: 'Read Full Legal Guide',
+
+    homeSearchPlaceholder: 'Search for a scheme, service or how to get help...',
+    homeRecTitle: 'Recommended for you',
+    homeRecSub: 'Based on your location and profile',
+    homeViewAll: 'View all schemes',
+    homeTrackApps: 'Track your applications',
+    homeNearbyTitle: 'Nearby Support Services',
+    homeNearbySub: 'Find verified centers near you',
+    homeViewMap: 'View on map',
+    homeContactsTitle: 'Important Contacts',
+    homeContactsSub: 'Quick access to verified helplines',
+    homeExploreTitle: 'Explore Support Areas',
+    homeExploreSub: 'Find schemes, services and information across key areas',
+    homeExpHealth: 'Hospitals, insurance, maternal care and more',
+    homeExpWealth: 'Savings, pensions, benefits and insurance',
+    homeExpLivelihood: 'Jobs, skill training and entrepreneurship',
+    homeExpFinance: 'Loans, scholarships and financial support',
+    homeExpSafety: 'Emergency help, legal aid and crisis support',
+    homeExpRights: 'Know your rights and access legal resources',
+    wealthRecKicker: 'RECOMMENDED FOR YOU',
+    wealthSchemesTitle: 'Financial Schemes',
+    wealthSchemesSub: 'Based on your location and profile.',
+    wealthSearchPlaceholder: 'Search by keyword or scheme',
+    wealthResetFilters: 'Reset filters',
+    wealthViewAll: 'View all schemes',
+    wealthTrackApps: 'Track your applications',
+    wealthHeroKicker: 'BUILD A BRIGHTER TOMORROW',
+    wealthHeroTitle: 'Small steps,',
+    wealthHeroTitle2: 'big financial freedom.',
+    wealthHeroDesc: 'Explore savings, loans, insurance and investment schemes made for you.',
+    wealthStartExplore: 'Start exploring',
+    wealthPlan: 'Plan',
+    wealthSave: 'Save',
+    wealthGrow: 'Grow',
+    wealthExploreGoalTitle: 'Explore by Goal',
+    wealthViewAllGoals: 'View all',
+    wealthExploreGoalSub: 'Find the right schemes and tools for your needs.',
+    wealthSnapshotTitle: 'Your Financial Snapshot',
+    wealthSnapshotSub: 'Track and manage your progress.',
+    wealthSavedSchemes: 'Saved Schemes',
+    wealthApplications: 'Applications',
+    wealthDeadlines: 'Upcoming Deadlines',
+    wealthNotes: 'Personal Notes',
+    wealthNeedHelpTitle: 'Need Help?',
+    wealthNeedHelpSub: 'Get guidance from verified experts or helplines.',
+    wealthHelpHelpline: 'Talk to a Financial Helpline',
+    wealthHelpAsk: 'Ask Unnati',
+    wealthHelpAskSub: 'Get step-by-step guidance',
+    wealthHelpGuide: 'Financial Literacy Guide',
+    wealthHelpGuideSub: 'Learn the basics of banking, saving, investing and avoiding fraud.',
+
     nav: { home: 'Home', health: 'Health', wealth: 'Wealth', livelihood: 'Livelihood', finance: 'Finance', safety: 'Safety', rights: 'Rights' },
     sos: 'SOS',
     signin: 'Sign in',
@@ -39,8 +163,196 @@ const TRANSLATIONS = {
     callMom: 'Call Mom',
     locationPrescreen: 'Unnati uses your location to show nearby hospitals, police desks, and Sakhi crisis shelters.',
     allowLocation: 'Enable location access',
+
+    // Health Page specific
+    healthKickerRec: '# RECOMMENDED FOR YOU',
+    healthVerifiedSchemesTitle: 'Verified Schemes',
+    healthVerifiedSchemesSub: 'Government programs matching your location & requirements.',
+    healthSearchPlaceholder: 'Search by keyword or scheme',
+    healthCheckEligibility: 'Check Eligibility',
+    healthTrackApps: 'Track submitted applications',
+    healthSchemes: [
+      {
+        id: 'pmjay',
+        name: 'Ayushman Bharat (PM-JAY)',
+        desc: 'Free health coverage up to ₹5 lakh per family per year.',
+      },
+      {
+        id: 'jsy',
+        name: 'Janani Suraksha Yojana',
+        desc: 'Financial support for safe delivery and maternal care.',
+      },
+      {
+        id: 'pmmvy',
+        name: 'Pradhan Mantri Matru Vandana Yojana',
+        desc: 'Cash incentive for pregnancy and lactating mothers.',
+      }
+    ],
+    healthPeriodAlert: 'Your period may start in 2 days. Log how you are feeling?',
+    healthCycleKicker: 'CYCLE & SYMPTOM TRACKING',
+    healthPeriodSuiteTitle: 'Period & Wellness Suite',
+    healthPeriodSuiteSub: 'Log daily flow, moods, cramps, and symptoms. View 6-month cycle length trends.',
+    healthTabs: {
+      cycle: 'Cycle Length',
+      flow: 'Flow Intensity',
+      symptoms: 'Symptoms',
+      mood: 'Mood',
+    },
+    healthCycleHeader: 'Cycle length (days)',
+    healthCycleAvg: 'Average: 28 days',
+    healthFlowSublabel: "Select today's flow intensity",
+    healthFlowOpts: {
+      Spotting: { label: 'Spotting', desc: 'Barely visible' },
+      Light: { label: 'Light', desc: 'Standard flow' },
+      Medium: { label: 'Medium', desc: 'Standard flow' },
+      Heavy: { label: 'Heavy', desc: 'High absorbency' },
+    },
+    healthSymptomsSublabel: 'Log daily symptoms',
+    healthSymptoms: ['Cramps', 'Headache', 'Fatigue', 'Bloating', 'Tender Breasts', 'Back Pain', 'Acne'],
+    healthMoodSublabel: 'How are you feeling today?',
+    healthMoods: [
+      ['Calm', '😌'], ['Happy', '😊'], ['Anxious', '😰'],
+      ['Irritable', '😤'], ['Low Energy', '🔋'], ['Sensitive', '🥺']
+    ],
+    healthOpenTracker: 'Open complete tracker',
+    healthMedScheduleKicker: 'MEDICATION SCHEDULE',
+    healthScanQr: 'Scan QR',
+    healthAddMed: 'Add',
+    healthMedTabMedicine: 'Medicine',
+    healthMedTabCabinet: 'Cabinet',
+    healthNoMedsTitle: 'No medications scheduled',
+    healthNoMedsDesc: 'Tap "+ Add" or "Scan QR" above to log your daily prescriptions.',
+    healthCabinetEmptyTitle: 'Medicine cabinet is empty',
+    healthCabinetEmptyDesc: 'Scan packaging QR code to automatically register first-aid items and track expiration.',
+    healthEmergencyKicker: 'EMERGENCY REFERENCE',
+    healthFirstAidTitle: 'First-Aid Emergency Guide',
+    healthFirstAidSub: 'Quick steps for burns, fainting, CPR, and trauma.',
   },
   Hindi: {
+    finVerifiedSchemes: 'सत्यापित योजनाएं',
+    finGovPrograms: 'आपके स्थान और आवश्यकताओं से मेल खाने वाले सरकारी कार्यक्रम।',
+    finSearchPlaceholder: 'कीवर्ड या योजना द्वारा खोजें',
+    finCheckEligibility: 'पात्रता जांचें',
+    finBudgetTracking: 'मासिक बजट ट्रैकिंग',
+    finExpenseTracker: 'खर्च ट्रैकर',
+    finAddExpense: 'खर्च जोड़ें',
+    finCancel: 'रद्द करें',
+    finSpent: 'खर्च ₹',
+    finOf: 'में से ₹',
+    finRemaining: 'मासिक भत्ते में शेष',
+    finDescPlaceholder: 'विवरण (उदा. किराने का सामान, स्कूल की फीस...)',
+    finAmountPlaceholder: 'राशि (₹)',
+    finSaveExpense: 'खर्च सहेजें',
+    finNoExpenses: 'अभी तक कोई खर्च दर्ज नहीं किया गया',
+    finClickAdd: 'अपने दैनिक घरेलू खर्चों को ट्रैक करने के लिए<br/>ऊपर "+ खर्च जोड़ें" पर क्लिक करें।',
+    finUsageOverview: 'उपयोग अवलोकन',
+    finMonthlyLimit: 'मासिक सीमा और अलर्ट',
+    finBudgetUtilized: 'बजट का उपयोग',
+    finBudgetCheckin: 'बजट चेक-इन',
+    finYouHave: 'आपके पास ₹',
+    finRemainingMonth: 'इस महीने शेष हैं।',
+    finCloseLimit: ' आप खरीदारी के लिए अपनी मासिक सीमा के करीब हैं।',
+    finComfortable: ' आप अपने मासिक आवंटन के भीतर आराम से हैं।',
+    finProTip: 'प्रो-टिप',
+    finProTipDesc: 'सुकन्या समृद्धि या PPF में केवल ₹200/माह लगाने से 8.2% की गारंटीड रिटर्न मिलती है।',
+    finSavingsGoals: 'बचत लक्ष्य',
+    finSetGoals: 'प्रेरित रहने और बेहतर योजना बनाने के लिए अपने लक्ष्य निर्धारित करें।',
+    finGoalsSet: 'लक्ष्य निर्धारित',
+    finUpdateGoal: 'लक्ष्य अपडेट करें',
+    finAddGoal: 'लक्ष्य जोड़ें',
+    finCheckFullEligibility: 'पूरी पात्रता जांचें और आवेदन करें',
+    livCareerAdv: 'कैरियर उन्नति',
+    livResumeCreator: 'पेशेवर रेज़्यूमे / सीवी निर्माता',
+    livAtsFriendly: 'हेल्थकेयर, रिटेल, कोऑर्डिनेटर और ऑफिस भूमिकाओं के लिए डिज़ाइन किए गए ATS-अनुकूल प्रारूप।',
+    livBuildResume: 'मेरा रेज़्यूमे बनाएं',
+    livAiVoice: 'एआई वॉयस अभ्यास',
+    livInterviewSim: 'साक्षात्कार सिम्युलेटर',
+    livPracticeReal: 'अपनी भाषा में वास्तविक साक्षात्कार प्रश्नों का जोर से अभ्यास करें। आत्मविश्वास, स्पष्टता और लहजे के लिए तुरंत एआई स्कोर प्राप्त करें।',
+    livStartVoice: 'आवाज अभ्यास शुरू करें',
+    livVideoGuides: '🎬 <strong>वीडियो गाइड:</strong> वेतन संबंधी सवालों के जवाब देने और अपनी पिछली उपलब्धियों को आत्मविश्वास के साथ पेश करने पर 5 मिनट के वीडियो ट्यूटोरियल देखें।',
+    safProtection: '24/7 सुरक्षा और त्वरित प्रतिक्रिया',
+    safAssistance: 'तत्काल आपातकालीन सहायता',
+    safPrivateDispatch: 'निजी आपातकालीन प्रेषण, असतत निकास सिमुलेशन, और सत्यापित हेल्पलाइन।',
+    safActivateSOS: 'आपातकालीन SOS सक्रिय करें',
+    safDiscreetExit: 'असतत निकास कॉल',
+    safSimulatesCall: 'असुविधाजनक या तनावपूर्ण स्थितियों से चुपचाप बाहर निकलने के लिए एक इनकमिंग मोबाइल फोन कॉल का अनुकरण करता है।',
+    safShareLocation: 'लाइव लोकेशन शेयर करें',
+    safGeneratesLink: 'विश्वसनीय संपर्कों को भेजने के लिए 2 घंटे का एक निजी एन्क्रिप्टेड GPS ट्रैकिंग लिंक जेनरेट करता है।',
+    safCopyLink: 'ट्रैकिंग लिंक कॉपी करें',
+    safLinkExpires: 'यह सुरक्षित ट्रैकिंग लिंक 2 घंटे में समाप्त हो जाता है।',
+    safEmergencyContacts: 'आपातकालीन संपर्क',
+    safDesignateContacts: 'विश्वसनीय संपर्कों को नामित करें जो SOS के दौरान तुरंत आपकी लोकेशन प्राप्त करेंगे।',
+    safManageContacts: 'संपर्क प्रबंधित करें',
+    safClose: 'बंद करें',
+    rigExactScripts: 'सटीक शब्द-दर-शब्द स्क्रिप्ट',
+    rigKnowWhatToSay: 'जानें क्या कहना है',
+    rigHereIsWhat: 'यहां बताया गया है कि यदि ऐसा होता है तो आप शब्द-दर-शब्द क्या कह सकते हैं — व्यावहारिक, मुखर और कानूनी।',
+    rigListenOutLoud: 'जोर से सुनें',
+    rigCopyScript: 'स्क्रिप्ट कॉपी करें',
+    rigCopied: 'कॉपी किया गया!',
+    rigPlainExplainers: 'सरल भाषा में व्याख्या',
+    rigLegalProtections: 'अपनी कानूनी सुरक्षा को जानें',
+    rigUnderstandLegal: 'भ्रमित करने वाले कानूनी शब्दजाल के बिना सरल शब्दों में अपनी कानूनी स्थिति को समझें।',
+    rigWorkplacePosh: 'कार्यस्थल और POSH सुरक्षा',
+    rigMandatoryICC: '10+ कर्मचारियों वाले संगठनों में अनिवार्य ICC समितियां।',
+    rigEqualProperty: 'समान संपत्ति और विरासत अधिकार',
+    rigEqualRights: 'हिंदू उत्तराधिकार अधिनियम के तहत पैतृक संपत्ति में समान अधिकार।',
+    rigProtectionDV: 'घरेलू हिंसा से सुरक्षा',
+    rigRightToReside: 'साझा घर में रहने का अधिकार, अंतरिम राहत और सुरक्षा आदेश।',
+    rigFreeLegalAid: 'मुफ्त कानूनी सहायता (NALSA)',
+    rigEveryWoman: 'भारत में हर महिला कानूनी तौर पर किसी भी अदालत में मुफ्त वकीलों की हकदार है।',
+    rigReadFullGuide: 'पूरी कानूनी गाइड पढ़ें',
+
+    homeSearchPlaceholder: 'किसी योजना, सेवा या मदद के लिए खोजें...',
+    homeRecTitle: 'आपके लिए अनुशंसित',
+    homeRecSub: 'आपके स्थान और प्रोफ़ाइल के आधार पर',
+    homeViewAll: 'सभी योजनाएं देखें',
+    homeTrackApps: 'अपने आवेदनों को ट्रैक करें',
+    homeNearbyTitle: 'आसपास की सहायता सेवाएं',
+    homeNearbySub: 'अपने आस-पास सत्यापित केंद्र खोजें',
+    homeViewMap: 'नक्शे पर देखें',
+    homeContactsTitle: 'महत्वपूर्ण संपर्क',
+    homeContactsSub: 'सत्यापित हेल्पलाइनों तक त्वरित पहुँच',
+    homeExploreTitle: 'सहायता क्षेत्रों का अन्वेषण करें',
+    homeExploreSub: 'प्रमुख क्षेत्रों में योजनाएं, सेवाएं और जानकारी खोजें',
+    homeExpHealth: 'अस्पताल, बीमा, मातृ देखभाल और बहुत कुछ',
+    homeExpWealth: 'बचत, पेंशन, लाभ और बीमा',
+    homeExpLivelihood: 'नौकरियां, कौशल प्रशिक्षण और उद्यमिता',
+    homeExpFinance: 'ऋण, छात्रवृत्ति और वित्तीय सहायता',
+    homeExpSafety: 'आपातकालीन मदद, कानूनी सहायता और संकट समर्थन',
+    homeExpRights: 'अपने अधिकारों को जानें और कानूनी संसाधनों तक पहुँचें',
+    wealthRecKicker: 'आपके लिए अनुशंसित',
+    wealthSchemesTitle: 'वित्तीय योजनाएं',
+    wealthSchemesSub: 'आपके स्थान और प्रोफ़ाइल के आधार पर।',
+    wealthSearchPlaceholder: 'कीवर्ड या योजना द्वारा खोजें',
+    wealthResetFilters: 'फ़िल्टर रीसेट करें',
+    wealthViewAll: 'सभी योजनाएं देखें',
+    wealthTrackApps: 'अपने आवेदनों को ट्रैक करें',
+    wealthHeroKicker: 'एक उज्जवल कल का निर्माण',
+    wealthHeroTitle: 'छोटे कदम,',
+    wealthHeroTitle2: 'बड़ी वित्तीय स्वतंत्रता।',
+    wealthHeroDesc: 'आपके लिए बनाई गई बचत, ऋण, बीमा और निवेश योजनाओं का अन्वेषण करें।',
+    wealthStartExplore: 'अन्वेषण शुरू करें',
+    wealthPlan: 'योजना',
+    wealthSave: 'बचत',
+    wealthGrow: 'विकास',
+    wealthExploreGoalTitle: 'लक्ष्य द्वारा अन्वेषण करें',
+    wealthViewAllGoals: 'सभी देखें',
+    wealthExploreGoalSub: 'अपनी आवश्यकताओं के लिए सही योजनाएं और उपकरण खोजें।',
+    wealthSnapshotTitle: 'आपका वित्तीय स्नैपशॉट',
+    wealthSnapshotSub: 'अपनी प्रगति को ट्रैक और प्रबंधित करें।',
+    wealthSavedSchemes: 'सहेजी गई योजनाएं',
+    wealthApplications: 'आवेदनों',
+    wealthDeadlines: 'आगामी समय सीमा',
+    wealthNotes: 'व्यक्तिगत नोट्स',
+    wealthNeedHelpTitle: 'क्या मदद चाहिए?',
+    wealthNeedHelpSub: 'सत्यापित विशेषज्ञों या हेल्पलाइनों से मार्गदर्शन प्राप्त करें।',
+    wealthHelpHelpline: 'वित्तीय हेल्पलाइन से बात करें',
+    wealthHelpAsk: 'उन्नति से पूछें',
+    wealthHelpAskSub: 'चरण-दर-चरण मार्गदर्शन प्राप्त करें',
+    wealthHelpGuide: 'वित्तीय साक्षरता गाइड',
+    wealthHelpGuideSub: 'बैंकिंग, बचत, निवेश और धोखाधड़ी से बचने की मूल बातें जानें।',
+
     nav: { home: 'होम', health: 'स्वास्थ्य', wealth: 'सम्पत्ति', livelihood: 'आजीविका', finance: 'वित्त', safety: 'सुरक्षा', rights: 'अधिकार' },
     sos: 'आपातकाल',
     signin: 'लॉग इन',
@@ -55,8 +367,196 @@ const TRANSLATIONS = {
     callMom: 'कॉल मॉम',
     locationPrescreen: 'उन्नति नजदीकी अस्पताल, महिला पुलिस डेस्क और सखी केंद्र दिखाने के लिए स्थान का उपयोग करती है।',
     allowLocation: 'स्थान सेवा चालू करें',
+
+    // Health Page specific
+    healthKickerRec: '# आपके लिए अनुशंसित',
+    healthVerifiedSchemesTitle: 'सत्यापित योजनाएं',
+    healthVerifiedSchemesSub: 'आपके स्थान और आवश्यकताओं के अनुरूप सरकारी कार्यक्रम।',
+    healthSearchPlaceholder: 'कीवर्ड या योजना द्वारा खोजें',
+    healthCheckEligibility: 'पात्रता जांचें',
+    healthTrackApps: 'जमा किए गए आवेदन ट्रैक करें',
+    healthSchemes: [
+      {
+        id: 'pmjay',
+        name: 'आयुष्मान भारत (PM-JAY)',
+        desc: 'प्रति वर्ष प्रति परिवार ₹5 लाख तक का मुफ्त स्वास्थ्य कवरेज।',
+      },
+      {
+        id: 'jsy',
+        name: 'जननी सुरक्षा योजना',
+        desc: 'सुरक्षित प्रसव और मातृ देखभाल के लिए वित्तीय सहायता।',
+      },
+      {
+        id: 'pmmvy',
+        name: 'प्रधानमंत्री मातृ वंदना योजना',
+        desc: 'गर्भवती और स्तनपान कराने वाली माताओं के लिए नकद प्रोत्साहन राशि।',
+      }
+    ],
+    healthPeriodAlert: 'आपका पीरियड 2 दिनों में शुरू हो सकता है। आप कैसा महसूस कर रही हैं दर्ज करें?',
+    healthCycleKicker: 'मासिक धर्म और लक्षण ट्रैकिंग',
+    healthPeriodSuiteTitle: 'पीरियड एवं वेलनेस सुइट',
+    healthPeriodSuiteSub: 'दैनिक प्रवाह, मनोदशा, ऐंठन और लक्षण दर्ज करें। 6 महीने के चक्र के रुझान देखें।',
+    healthTabs: {
+      cycle: 'चक्र अवधि',
+      flow: 'प्रवाह तीव्रता',
+      symptoms: 'लक्षण',
+      mood: 'मूड',
+    },
+    healthCycleHeader: 'चक्र अवधि (दिन)',
+    healthCycleAvg: 'औसत: 28 दिन',
+    healthFlowSublabel: 'आज के प्रवाह की तीव्रता चुनें',
+    healthFlowOpts: {
+      Spotting: { label: 'स्पॉटिंग', desc: 'हल्का सा' },
+      Light: { label: 'हल्का', desc: 'सामान्य प्रवाह' },
+      Medium: { label: 'मध्यम', desc: 'सामान्य प्रवाह' },
+      Heavy: { label: 'भारी', desc: 'उच्च अवशोषण' },
+    },
+    healthSymptomsSublabel: 'दैनिक लक्षण दर्ज करें',
+    healthSymptoms: ['पेट दर्द / ऐंठन', 'सिरदर्द', 'थकान', 'पेट फूलना', 'स्तन संवेदनशीलता', 'पीठ दर्द', 'मुंहासे'],
+    healthMoodSublabel: 'आज आप कैसा महसूस कर रही हैं?',
+    healthMoods: [
+      ['शांत', '😌'], ['खुश', '😊'], ['चिंतित', '😰'],
+      ['चिड़चिड़ा', '😤'], ['कम ऊर्जा', '🔋'], ['भावुक', '🥺']
+    ],
+    healthOpenTracker: 'पूरा ट्रैकर खोलें',
+    healthMedScheduleKicker: 'दवा अनुसूची',
+    healthScanQr: 'QR स्कैन',
+    healthAddMed: 'जोड़ें',
+    healthMedTabMedicine: 'दवाइयां',
+    healthMedTabCabinet: 'कैबिनेट',
+    healthNoMedsTitle: 'कोई दवा निर्धारित नहीं है',
+    healthNoMedsDesc: 'अपने दैनिक नुस्खे को दर्ज करने के लिए ऊपर "+ जोड़ें" या "QR स्कैन" पर टैप करें।',
+    healthCabinetEmptyTitle: 'दवा कैबिनेट खाली है',
+    healthCabinetEmptyDesc: 'प्राथमिक उपचार सामग्री जोड़ने और समाप्ति तिथि ट्रैक करने के लिए पैकेजिंग QR स्कैन करें।',
+    healthEmergencyKicker: 'आपातकालीन संदर्भ',
+    healthFirstAidTitle: 'प्राथमिक चिकित्सा आपातकालीन गाइड',
+    healthFirstAidSub: 'जलने, बेहोशी, सीपीआर और चोटों के लिए त्वरित प्राथमिक कदम।',
   },
   Marathi: {
+    finVerifiedSchemes: 'सत्यापित योजना',
+    finGovPrograms: 'तुमच्या स्थानाशी आणि गरजांशी जुळणारे सरकारी कार्यक्रम.',
+    finSearchPlaceholder: 'कीवर्ड किंवा योजनेद्वारे शोधा',
+    finCheckEligibility: 'पात्रता तपासा',
+    finBudgetTracking: 'मासिक बजेट ट्रॅकिंग',
+    finExpenseTracker: 'खर्च ट्रॅकर',
+    finAddExpense: 'खर्च जोडा',
+    finCancel: 'रद्द करा',
+    finSpent: 'खर्च ₹',
+    finOf: 'पैकी ₹',
+    finRemaining: 'मासिक भत्त्यामध्ये उर्वरित',
+    finDescPlaceholder: 'वर्णन (उदा. किराणा माल, शाळेची फी...)',
+    finAmountPlaceholder: 'रक्कम (₹)',
+    finSaveExpense: 'खर्च जतन करा',
+    finNoExpenses: 'अद्याप कोणताही खर्च नोंदवला नाही',
+    finClickAdd: 'तुमच्या दैनंदिन घरगुती खर्चाचा मागोवा घेण्यासाठी<br/>वर "+ खर्च जोडा" क्लिक करा.',
+    finUsageOverview: 'वापर विहंगावलोकन',
+    finMonthlyLimit: 'मासिक मर्यादा आणि सूचना',
+    finBudgetUtilized: 'बजेट वापरले',
+    finBudgetCheckin: 'बजेट चेक-इन',
+    finYouHave: 'तुमच्याकडे ₹',
+    finRemainingMonth: 'या महिन्यात उर्वरित आहेत.',
+    finCloseLimit: ' तुम्ही खरेदीसाठी तुमच्या मासिक मर्यादेच्या जवळ आहात.',
+    finComfortable: ' तुम्ही तुमच्या मासिक वाटपाच्या आत आरामात आहात.',
+    finProTip: 'प्रो-टिप',
+    finProTipDesc: 'सुकन्या समृद्धी किंवा PPF मध्ये दरमहा फक्त ₹200 गुंतवल्यास 8.2% हमी परतावा मिळतो.',
+    finSavingsGoals: 'बचत उद्दिष्टे',
+    finSetGoals: 'प्रेरित राहण्यासाठी आणि चांगले नियोजन करण्यासाठी तुमची उद्दिष्टे सेट करा.',
+    finGoalsSet: 'उद्दिष्टे सेट',
+    finUpdateGoal: 'उद्दिष्ट अपडेट करा',
+    finAddGoal: 'उद्दिष्ट जोडा',
+    finCheckFullEligibility: 'संपूर्ण पात्रता तपासा आणि अर्ज करा',
+    livCareerAdv: 'करिअर प्रगती',
+    livResumeCreator: 'व्यावसायिक रेझ्युमे / सीव्ही निर्माता',
+    livAtsFriendly: 'हेल्थकेअर, रिटेल, समन्वयक आणि ऑफिसच्या भूमिकांसाठी डिझाइन केलेले ATS-अनुकूल फॉरमॅट्स.',
+    livBuildResume: 'माझा रेझ्युमे बनवा',
+    livAiVoice: 'एआय व्हॉइस सराव',
+    livInterviewSim: 'मुलाखत सिम्युलेटर',
+    livPracticeReal: 'तुमच्या भाषेत खऱ्या मुलाखतीच्या प्रश्नांचा मोठ्याने सराव करा. आत्मविश्वास, स्पष्टता आणि टोनसाठी त्वरित एआय स्कोअर मिळवा.',
+    livStartVoice: 'व्हॉइस सराव सुरू करा',
+    livVideoGuides: '🎬 <strong>व्हिडिओ मार्गदर्शक:</strong> पगाराच्या प्रश्नांची उत्तरे देणे आणि आपल्या मागील यशाची आत्मविश्वासाने ओळख करून देणे यावर 5 मिनिटांचे व्हिडिओ ट्यूटोरियल पहा.',
+    safProtection: '24/7 संरक्षण आणि त्वरित प्रतिसाद',
+    safAssistance: 'तात्काळ आपत्कालीन मदत',
+    safPrivateDispatch: 'खाजगी आपत्कालीन पाठवणी, गुप्त निर्गमन सिम्युलेशन आणि सत्यापित हेल्पलाइन.',
+    safActivateSOS: 'आपत्कालीन SOS सक्रिय करा',
+    safDiscreetExit: 'गुप्त निर्गमन कॉल',
+    safSimulatesCall: 'अस्वस्थ किंवा तणावपूर्ण परिस्थितीतून शांतपणे बाहेर पडण्यासाठी इनकमिंग मोबाईल फोन कॉलचे अनुकरण करते.',
+    safShareLocation: 'थेट स्थान शेअर करा',
+    safGeneratesLink: 'विश्वसनीय संपर्कांना पाठवण्यासाठी 2 तासांची खाजगी एनक्रिप्टेड GPS ट्रॅकिंग लिंक व्युत्पन्न करते.',
+    safCopyLink: 'ट्रॅकिंग लिंक कॉपी करा',
+    safLinkExpires: 'ही सुरक्षित ट्रॅकिंग लिंक 2 तासांत संपेल.',
+    safEmergencyContacts: 'आपत्कालीन संपर्क',
+    safDesignateContacts: 'SOS दरम्यान ज्यांना तुमचे स्थान त्वरित प्राप्त होईल असे विश्वसनीय संपर्क नियुक्त करा.',
+    safManageContacts: 'संपर्क व्यवस्थापित करा',
+    safClose: 'बंद करा',
+    rigExactScripts: 'अचूक शब्दशः स्क्रिप्ट्स',
+    rigKnowWhatToSay: 'काय बोलायचे ते जाणून घ्या',
+    rigHereIsWhat: 'असे घडल्यास तुम्ही शब्दशः काय बोलू शकता ते येथे आहे — व्यावहारिक, ठाम आणि कायदेशीर.',
+    rigListenOutLoud: 'मोठ्याने ऐका',
+    rigCopyScript: 'स्क्रिप्ट कॉपी करा',
+    rigCopied: 'कॉपी केले!',
+    rigPlainExplainers: 'सोप्या भाषेतील स्पष्टीकरण',
+    rigLegalProtections: 'तुमचे कायदेशीर संरक्षण जाणून घ्या',
+    rigUnderstandLegal: 'गोंधळात टाकणाऱ्या कायदेशीर शब्दांशिवाय सोप्या शब्दांत तुमची कायदेशीर स्थिती समजून घ्या.',
+    rigWorkplacePosh: 'कार्यस्थळ आणि POSH संरक्षण',
+    rigMandatoryICC: '10+ कर्मचारी असलेल्या संस्थांमध्ये अनिवार्य ICC समित्या.',
+    rigEqualProperty: 'समान मालमत्ता आणि वारसा हक्क',
+    rigEqualRights: 'हिंदू वारसा कायद्यांतर्गत वडिलोपार्जित संपत्तीत समान अधिकार.',
+    rigProtectionDV: 'कौटुंबिक हिंसाचारापासून संरक्षण',
+    rigRightToReside: 'सामायिक घरात राहण्याचा अधिकार, अंतरिम दिलासा आणि संरक्षण आदेश.',
+    rigFreeLegalAid: 'मोफत कायदेशीर मदत (NALSA)',
+    rigEveryWoman: 'भारतातील प्रत्येक महिला कायदेशीररित्या कोणत्याही न्यायालयात मोफत वकिलांची हक्कदार आहे.',
+    rigReadFullGuide: 'संपूर्ण कायदेशीर मार्गदर्शक वाचा',
+
+    homeSearchPlaceholder: 'योजना, सेवा किंवा मदत शोधण्यासाठी येथे शोधा...',
+    homeRecTitle: 'तुमच्यासाठी शिफारस केलेले',
+    homeRecSub: 'तुमच्या स्थानावर आणि प्रोफाइलवर आधारित',
+    homeViewAll: 'सर्व योजना पहा',
+    homeTrackApps: 'तुमचे अर्ज ट्रॅक करा',
+    homeNearbyTitle: 'जवळपासच्या मदत सेवा',
+    homeNearbySub: 'तुमच्या जवळचे सत्यापित केंद्र शोधा',
+    homeViewMap: 'नकाशावर पहा',
+    homeContactsTitle: 'महत्त्वाचे संपर्क',
+    homeContactsSub: 'सत्यापित हेल्पलाइनवर त्वरित प्रवेश',
+    homeExploreTitle: 'मदत क्षेत्रे एक्सप्लोर करा',
+    homeExploreSub: 'प्रमुख क्षेत्रांमधील योजना, सेवा आणि माहिती शोधा',
+    homeExpHealth: 'रुग्णालये, विमा, मातांची काळजी आणि बरेच काही',
+    homeExpWealth: 'बचत, पेन्शन, लाभ आणि विमा',
+    homeExpLivelihood: 'नोकऱ्या, कौशल्य प्रशिक्षण आणि उद्योजकता',
+    homeExpFinance: 'कर्ज, शिष्यवृत्ती आणि आर्थिक मदत',
+    homeExpSafety: 'आपत्कालीन मदत, कायदेशीर मदत आणि संकट समर्थन',
+    homeExpRights: 'तुमचे हक्क जाणून घ्या आणि कायदेशीर संसाधनांमध्ये प्रवेश करा',
+    wealthRecKicker: 'तुमच्यासाठी शिफारस केलेले',
+    wealthSchemesTitle: 'आर्थिक योजना',
+    wealthSchemesSub: 'तुमच्या स्थानावर आणि प्रोफाइलवर आधारित.',
+    wealthSearchPlaceholder: 'कीवर्ड किंवा योजनेद्वारे शोधा',
+    wealthResetFilters: 'फिल्टर रीसेट करा',
+    wealthViewAll: 'सर्व योजना पहा',
+    wealthTrackApps: 'तुमचे अर्ज ट्रॅक करा',
+    wealthHeroKicker: 'उज्ज्वल उद्याची निर्मिती',
+    wealthHeroTitle: 'छोटी पावले,',
+    wealthHeroTitle2: 'मोठे आर्थिक स्वातंत्र्य.',
+    wealthHeroDesc: 'तुमच्यासाठी बनवलेल्या बचत, कर्ज, विमा आणि गुंतवणूक योजना एक्सप्लोर करा.',
+    wealthStartExplore: 'एक्सप्लोर करणे सुरू करा',
+    wealthPlan: 'योजना',
+    wealthSave: 'बचत',
+    wealthGrow: 'वाढ',
+    wealthExploreGoalTitle: 'उद्दिष्टानुसार एक्सप्लोर करा',
+    wealthViewAllGoals: 'सर्व पहा',
+    wealthExploreGoalSub: 'तुमच्या गरजेनुसार योग्य योजना आणि साधने शोधा.',
+    wealthSnapshotTitle: 'तुमचा आर्थिक स्नॅपशॉट',
+    wealthSnapshotSub: 'तुमच्या प्रगतीचा मागोवा घ्या आणि व्यवस्थापित करा.',
+    wealthSavedSchemes: 'जतन केलेल्या योजना',
+    wealthApplications: 'अर्ज',
+    wealthDeadlines: 'आगामी मुदती',
+    wealthNotes: 'वैयक्तिक नोट्स',
+    wealthNeedHelpTitle: 'मदत हवी आहे?',
+    wealthNeedHelpSub: 'सत्यापित तज्ञ किंवा हेल्पलाइनकडून मार्गदर्शन मिळवा.',
+    wealthHelpHelpline: 'आर्थिक हेल्पलाइनशी बोला',
+    wealthHelpAsk: 'उन्नतीला विचारा',
+    wealthHelpAskSub: 'टप्प्याटप्प्याने मार्गदर्शन मिळवा',
+    wealthHelpGuide: 'आर्थिक साक्षरता मार्गदर्शक',
+    wealthHelpGuideSub: 'बँकिंग, बचत, गुंतवणूक आणि फसवणूक टाळण्याच्या मूलभूत गोष्टी जाणून घ्या.',
+
     nav: { home: 'मुख्यपृष्ठ', health: 'आरोग्य', wealth: 'संपत्ती', livelihood: 'उपजीविका', finance: 'वित्त', safety: 'सुरक्षा', rights: 'हक्क' },
     sos: 'आपत्कालीन',
     signin: 'साइन इन',
@@ -73,6 +573,130 @@ const TRANSLATIONS = {
     allowLocation: 'स्थान चालू करा',
   },
   Tamil: {
+    finVerifiedSchemes: 'சரிபார்க்கப்பட்ட திட்டங்கள்',
+    finGovPrograms: 'உங்கள் இருப்பிடம் மற்றும் தேவைகளுக்குப் பொருந்தும் அரசுத் திட்டங்கள்.',
+    finSearchPlaceholder: 'முக்கிய சொல் அல்லது திட்டத்தின் மூலம் தேடுங்கள்',
+    finCheckEligibility: 'தகுதியைச் சரிபார்க்கவும்',
+    finBudgetTracking: 'மாதாந்திர பட்ஜெட் கண்காணிப்பு',
+    finExpenseTracker: 'செலவு கண்காணிப்பாளர்',
+    finAddExpense: 'செலவைச் சேர்',
+    finCancel: 'ரத்துசெய்',
+    finSpent: 'செலவிடப்பட்டது ₹',
+    finOf: 'இல் ₹',
+    finRemaining: 'மாதாந்திர கொடுப்பனவில் மீதமுள்ளது',
+    finDescPlaceholder: 'விளக்கம் (எ.கா. மளிகை பொருட்கள், பள்ளி கட்டணம்...)',
+    finAmountPlaceholder: 'தொகை (₹)',
+    finSaveExpense: 'செலவைச் சேமி',
+    finNoExpenses: 'இதுவரை எந்தச் செலவும் பதிவு செய்யப்படவில்லை',
+    finClickAdd: 'உங்கள் அன்றாட வீட்டுச் செலவுகளைக் கண்காணிக்க<br/>மேலே உள்ள "+ செலவைச் சேர்" என்பதைக் கிளிக் செய்யவும்.',
+    finUsageOverview: 'பயன்பாட்டு கண்ணோட்டம்',
+    finMonthlyLimit: 'மாதாந்திர வரம்பு & விழிப்பூட்டல்கள்',
+    finBudgetUtilized: 'பயன்படுத்தப்பட்ட பட்ஜெட்',
+    finBudgetCheckin: 'பட்ஜெட் சரிபார்ப்பு',
+    finYouHave: 'உங்களிடம் ₹',
+    finRemainingMonth: 'இந்த மாதம் மீதமுள்ளது.',
+    finCloseLimit: ' ஷாப்பிங் செய்வதற்கான உங்கள் மாதாந்திர வரம்பை நீங்கள் நெருங்கிவிட்டீர்கள்.',
+    finComfortable: ' உங்கள் மாதாந்திர ஒதுக்கீட்டிற்குள் நீங்கள் வசதியாக இருக்கிறீர்கள்.',
+    finProTip: 'ப்ரோ-டிப்',
+    finProTipDesc: 'சுகன்யா சம்ரித்தி அல்லது PPF இல் மாதத்திற்கு ₹200 செலுத்தினால் 8.2% உத்தரவாத வருவாய் கிடைக்கும்.',
+    finSavingsGoals: 'சேமிப்பு இலக்குகள்',
+    finSetGoals: 'உந்துதலாக இருக்கவும், சிறப்பாகத் திட்டமிடவும் உங்கள் இலக்குகளை அமைக்கவும்.',
+    finGoalsSet: 'இலக்குகள் அமைக்கப்பட்டுள்ளன',
+    finUpdateGoal: 'இலக்கைப் புதுப்பிக்கவும்',
+    finAddGoal: 'இலக்கைச் சேர்',
+    finCheckFullEligibility: 'முழு தகுதியைச் சரிபார்த்து விண்ணப்பிக்கவும்',
+    livCareerAdv: 'தொழில் முன்னேற்றம்',
+    livResumeCreator: 'தொழில்முறை ரெஸ்யூம் / சிவி கிரியேட்டர்',
+    livAtsFriendly: 'சுகாதாரம், சில்லறை விற்பனை, ஒருங்கிணைப்பாளர் மற்றும் அலுவலகப் பாத்திரங்களுக்காக வடிவமைக்கப்பட்ட ATS-க்கு உகந்த வடிவங்கள்.',
+    livBuildResume: 'எனது ரெஸ்யூமை உருவாக்கு',
+    livAiVoice: 'AI குரல் பயிற்சி',
+    livInterviewSim: 'நேர்காணல் சிமுலேட்டர்',
+    livPracticeReal: 'உங்கள் மொழியில் உண்மையான நேர்காணல் கேள்விகளை சத்தமாகப் பயிற்சி செய்யுங்கள். தன்னம்பிக்கை, தெளிவு மற்றும் தொனிக்கான உடனடி AI மதிப்பெண்களைப் பெறுங்கள்.',
+    livStartVoice: 'குரல் பயிற்சியைத் தொடங்கு',
+    livVideoGuides: '🎬 <strong>வீடியோ வழிகாட்டிகள்:</strong> சம்பளக் கேள்விகளுக்குப் பதிலளிப்பது மற்றும் உங்களின் கடந்தகால சாதனைகளை நம்பிக்கையுடன் அறிமுகப்படுத்துவது குறித்த 5 நிமிட வீடியோ டுடோரியல்களைப் பார்க்கவும்.',
+    safProtection: '24/7 பாதுகாப்பு & விரைவான பதில்',
+    safAssistance: 'உடனடி அவசர உதவி',
+    safPrivateDispatch: 'தனியார் அவசரகால அனுப்புதல், விவேகமான வெளியேறும் உருவகப்படுத்துதல் மற்றும் சரிபார்க்கப்பட்ட உதவி எண்கள்.',
+    safActivateSOS: 'அவசர SOS ஐ இயக்கவும்',
+    safDiscreetExit: 'விவேகமான வெளியேறும் அழைப்பு',
+    safSimulatesCall: 'சங்கடமான அல்லது பதட்டமான சூழ்நிலைகளில் இருந்து விவேகத்துடன் வெளியேற, உள்வரும் மொபைல் போன் அழைப்பை உருவகப்படுத்துகிறது.',
+    safShareLocation: 'நேரலை இருப்பிடத்தைப் பகிரவும்',
+    safGeneratesLink: 'நம்பகமான தொடர்புகளுக்கு அனுப்ப 2 மணிநேர தனிப்பட்ட மறைகுறியாக்கப்பட்ட ஜிபிஎஸ் கண்காணிப்பு இணைப்பை உருவாக்குகிறது.',
+    safCopyLink: 'கண்காணிப்பு இணைப்பை நகலெடுக்கவும்',
+    safLinkExpires: 'இந்த பாதுகாப்பான கண்காணிப்பு இணைப்பு 2 மணிநேரத்தில் காலாவதியாகும்.',
+    safEmergencyContacts: 'அவசரகால தொடர்புகள்',
+    safDesignateContacts: 'SOS இன் போது உங்கள் இருப்பிடத்தை உடனடியாகப் பெறும் நம்பகமான தொடர்புகளை நியமிக்கவும்.',
+    safManageContacts: 'தொடர்புகளை நிர்வகி',
+    safClose: 'மூடு',
+    rigExactScripts: 'சரியான வார்த்தைக்கு வார்த்தை ஸ்கிரிப்டுகள்',
+    rigKnowWhatToSay: 'என்ன சொல்வது என்று தெரிந்து கொள்ளுங்கள்',
+    rigHereIsWhat: 'இது நடந்தால் - நடைமுறை, உறுதியான மற்றும் சட்டபூர்வமான முறையில் நீங்கள் வார்த்தைக்கு வார்த்தை கூறக்கூடியது இங்கே.',
+    rigListenOutLoud: 'சத்தமாகக் கேளுங்கள்',
+    rigCopyScript: 'ஸ்கிரிப்டை நகலெடுக்கவும்',
+    rigCopied: 'நகலெடுக்கப்பட்டது!',
+    rigPlainExplainers: 'எளிய மொழி விளக்கங்கள்',
+    rigLegalProtections: 'உங்கள் சட்டப் பாதுகாப்புகளை அறிந்து கொள்ளுங்கள்',
+    rigUnderstandLegal: 'குழப்பமான சட்டச் சொற்கள் இல்லாமல் எளிய வார்த்தைகளில் உங்கள் சட்ட நிலைப்பாட்டை புரிந்து கொள்ளுங்கள்.',
+    rigWorkplacePosh: 'பணியிடம் & POSH பாதுகாப்பு',
+    rigMandatoryICC: '10+ ஊழியர்களைக் கொண்ட நிறுவனங்களில் கட்டாய ICC குழுக்கள்.',
+    rigEqualProperty: 'சமமான சொத்து மற்றும் பரம்பரை உரிமைகள்',
+    rigEqualRights: 'இந்து வாரிசுச் சட்டத்தின் கீழ் மூதாதையர் சொத்துக்களில் சம உரிமைகள்.',
+    rigProtectionDV: 'குடும்ப வன்முறையிலிருந்து பாதுகாப்பு',
+    rigRightToReside: 'பகிர்ந்த வீட்டில் வசிக்கும் உரிமை, இடைக்கால நிவாரணம் & பாதுகாப்பு உத்தரவுகள்.',
+    rigFreeLegalAid: 'இலவச சட்ட உதவி (NALSA)',
+    rigEveryWoman: 'இந்தியாவில் உள்ள ஒவ்வொரு பெண்ணும் எந்த நீதிமன்றத்திலும் இலவச வழக்கறிஞர்களுக்கு சட்டப்பூர்வ உரிமை உண்டு.',
+    rigReadFullGuide: 'முழு சட்ட வழிகாட்டியைப் படிக்கவும்',
+
+    homeSearchPlaceholder: 'ஒரு திட்டம், சேவை அல்லது உதவி பெறுவது எப்படி என்று தேடுங்கள்...',
+    homeRecTitle: 'உங்களுக்காகப் பரிந்துரைக்கப்பட்டவை',
+    homeRecSub: 'உங்கள் இருப்பிடம் மற்றும் சுயவிவரத்தின் அடிப்படையில்',
+    homeViewAll: 'அனைத்து திட்டங்களையும் காண்க',
+    homeTrackApps: 'உங்கள் விண்ணப்பங்களைக் கண்காணிக்கவும்',
+    homeNearbyTitle: 'அருகிலுள்ள ஆதரவு சேவைகள்',
+    homeNearbySub: 'உங்களுக்கு அருகிலுள்ள சரிபார்க்கப்பட்ட மையங்களைக் கண்டறியவும்',
+    homeViewMap: 'வரைபடத்தில் காண்க',
+    homeContactsTitle: 'முக்கியமான தொடர்புகள்',
+    homeContactsSub: 'சரிபார்க்கப்பட்ட உதவி எண்களுக்கு விரைவான அணுகல்',
+    homeExploreTitle: 'ஆதரவு பகுதிகளை ஆராயுங்கள்',
+    homeExploreSub: 'முக்கிய பிரிவுகளில் திட்டங்கள், சேவைகள் மற்றும் தகவல்களைக் கண்டறியவும்',
+    homeExpHealth: 'மருத்துவமனைகள், காப்பீடு, தாய்வழி பராமரிப்பு மற்றும் பல',
+    homeExpWealth: 'சேமிப்பு, ஓய்வூதியம், சலுகைகள் மற்றும் காப்பீடு',
+    homeExpLivelihood: 'வேலைகள், திறன் பயிற்சி மற்றும் தொழில்முனைவோர்',
+    homeExpFinance: 'கடன், உதவித்தொகை மற்றும் நிதி உதவி',
+    homeExpSafety: 'அவசர உதவி, சட்ட உதவி மற்றும் நெருக்கடி ஆதரவு',
+    homeExpRights: 'உங்கள் உரிமைகளை அறிந்து சட்ட ஆதாரங்களை அணுகவும்',
+    wealthRecKicker: 'உங்களுக்காகப் பரிந்துரைக்கப்பட்டவை',
+    wealthSchemesTitle: 'நிதி திட்டங்கள்',
+    wealthSchemesSub: 'உங்கள் இருப்பிடம் மற்றும் சுயவிவரத்தின் அடிப்படையில்.',
+    wealthSearchPlaceholder: 'முக்கிய சொல் அல்லது திட்டத்தின் மூலம் தேடுங்கள்',
+    wealthResetFilters: 'வடிப்பான்களை மீட்டமைக்கவும்',
+    wealthViewAll: 'அனைத்து திட்டங்களையும் காண்க',
+    wealthTrackApps: 'உங்கள் விண்ணப்பங்களைக் கண்காணிக்கவும்',
+    wealthHeroKicker: 'ஒரு பிரகாசமான நாளைய உருவாக்குதல்',
+    wealthHeroTitle: 'சிறிய படிகள்,',
+    wealthHeroTitle2: 'பெரிய நிதி சுதந்திரம்.',
+    wealthHeroDesc: 'உங்களுக்காக உருவாக்கப்பட்ட சேமிப்பு, கடன், காப்பீடு மற்றும் முதலீட்டு திட்டங்களை ஆராயுங்கள்.',
+    wealthStartExplore: 'ஆராய்வதைத் தொடங்கவும்',
+    wealthPlan: 'திட்டம்',
+    wealthSave: 'சேமி',
+    wealthGrow: 'வளரு',
+    wealthExploreGoalTitle: 'இலக்கு மூலம் ஆராயுங்கள்',
+    wealthViewAllGoals: 'அனைத்தையும் காண்க',
+    wealthExploreGoalSub: 'உங்கள் தேவைகளுக்கு சரியான திட்டங்கள் மற்றும் கருவிகளைக் கண்டறியவும்.',
+    wealthSnapshotTitle: 'உங்கள் நிதி கண்ணோட்டம்',
+    wealthSnapshotSub: 'உங்கள் முன்னேற்றத்தைக் கண்காணித்து நிர்வகிக்கவும்.',
+    wealthSavedSchemes: 'சேமிக்கப்பட்ட திட்டங்கள்',
+    wealthApplications: 'விண்ணப்பங்கள்',
+    wealthDeadlines: 'வரவிருக்கும் காலக்கெடு',
+    wealthNotes: 'தனிப்பட்ட குறிப்புகள்',
+    wealthNeedHelpTitle: 'உதவி தேவையா?',
+    wealthNeedHelpSub: 'சரிபார்க்கப்பட்ட நிபுணர்கள் அல்லது உதவி எண்களிலிருந்து வழிகாட்டுதலைப் பெறுங்கள்.',
+    wealthHelpHelpline: 'நிதி உதவி எண்ணுடன் பேசுங்கள்',
+    wealthHelpAsk: 'உன்னதியைக் கேளுங்கள்',
+    wealthHelpAskSub: 'படிப்படியான வழிகாட்டுதலைப் பெறுங்கள்',
+    wealthHelpGuide: 'நிதி கல்வியறிவு வழிகாட்டி',
+    wealthHelpGuideSub: 'வங்கியியல், சேமிப்பு, முதலீடு மற்றும் மோசடியைத் தவிர்ப்பதற்கான அடிப்படைகளைக் கற்றுக்கொள்ளுங்கள்.',
+
     nav: { home: 'முகப்பு', health: 'சுகாதாரம்', wealth: 'செல்வம்', livelihood: 'வாழ்வாதாரம்', finance: 'நிதி', safety: 'பாதுகாப்பு', rights: 'உரிமைகள்' },
     sos: 'அவசரம்',
     signin: 'உள்நுழைக',
@@ -89,6 +713,130 @@ const TRANSLATIONS = {
     allowLocation: 'இருப்பிடத்தை அனுமதிக்கவும்',
   },
   Bengali: {
+    finVerifiedSchemes: 'যাচাইকৃত প্রকল্প',
+    finGovPrograms: 'আপনার অবস্থান এবং প্রয়োজনীয়তার সাথে মেলে এমন সরকারি প্রোগ্রাম।',
+    finSearchPlaceholder: 'কীওয়ার্ড বা স্কিম দ্বারা অনুসন্ধান করুন',
+    finCheckEligibility: 'যোগ্যতা যাচাই করুন',
+    finBudgetTracking: 'মাসিক বাজেট ট্র্যাকিং',
+    finExpenseTracker: 'খরচ ট্র্যাকার',
+    finAddExpense: 'খরচ যোগ করুন',
+    finCancel: 'বাতিল করুন',
+    finSpent: 'ব্যয়িত ₹',
+    finOf: 'এর মধ্যে ₹',
+    finRemaining: 'মাসিক ভাতায় অবশিষ্ট',
+    finDescPlaceholder: 'বিবরণ (যেমন মুদি, স্কুলের ফি...)',
+    finAmountPlaceholder: 'পরিমাণ (₹)',
+    finSaveExpense: 'খরচ সংরক্ষণ করুন',
+    finNoExpenses: 'এখনও কোন খরচ রেকর্ড করা হয়নি',
+    finClickAdd: 'আপনার দৈনন্দিন গৃহস্থালির খরচ ট্র্যাক করতে<br/>উপরের "+ খরচ যোগ করুন" এ ক্লিক করুন।',
+    finUsageOverview: 'ব্যবহারের ওভারভিউ',
+    finMonthlyLimit: 'মাসিক সীমা এবং সতর্কতা',
+    finBudgetUtilized: 'বাজেট ব্যবহৃত',
+    finBudgetCheckin: 'বাজেট চেক-ইন',
+    finYouHave: 'আপনার কাছে ₹',
+    finRemainingMonth: 'এই মাসে অবশিষ্ট আছে।',
+    finCloseLimit: ' আপনি কেনাকাটার জন্য আপনার মাসিক সীমার কাছাকাছি।',
+    finComfortable: ' আপনি আপনার মাসিক বরাদ্দের মধ্যে আরামে আছেন।',
+    finProTip: 'প্রো-টিপ',
+    finProTipDesc: 'সুকন্যা সমৃদ্ধি বা PPF-এ মাসে মাত্র ₹200 রাখলে 8.2% নিশ্চিত রিটার্ন পাওয়া যায়।',
+    finSavingsGoals: 'সঞ্চয়ের লক্ষ্য',
+    finSetGoals: 'অনুপ্রাণিত থাকতে এবং আরও ভাল পরিকল্পনা করতে আপনার লক্ষ্য নির্ধারণ করুন।',
+    finGoalsSet: 'লক্ষ্য নির্ধারিত',
+    finUpdateGoal: 'লক্ষ্য আপডেট করুন',
+    finAddGoal: 'লক্ষ্য যোগ করুন',
+    finCheckFullEligibility: 'সম্পূর্ণ যোগ্যতা যাচাই করুন এবং আবেদন করুন',
+    livCareerAdv: 'কর্মজীবনে অগ্রগতি',
+    livResumeCreator: 'পেশাদার জীবনবৃত্তান্ত / সিভি স্রষ্টা',
+    livAtsFriendly: 'স্বাস্থ্যসেবা, খুচরা, সমন্বয়কারী এবং অফিস ভূমিকার জন্য ডিজাইন করা ATS-বান্ধব ফর্ম্যাট।',
+    livBuildResume: 'আমার জীবনবৃত্তান্ত তৈরি করুন',
+    livAiVoice: 'এআই ভয়েস অনুশীলন',
+    livInterviewSim: 'সাক্ষাৎকার সিমুলেটর',
+    livPracticeReal: 'আপনার ভাষায় বাস্তব সাক্ষাৎকারের প্রশ্নগুলি জোরে জোরে অনুশীলন করুন। আত্মবিশ্বাস, স্বচ্ছতা এবং টোনের জন্য তাত্ক্ষণিক এআই স্কোর পান।',
+    livStartVoice: 'ভয়েস অনুশীলন শুরু করুন',
+    livVideoGuides: '🎬 <strong>ভিডিও গাইড:</strong> বেতনের প্রশ্নের উত্তর দেওয়া এবং আত্মবিশ্বাসের সাথে আপনার অতীত অর্জনগুলি উপস্থাপন করার উপর 5 মিনিটের ভিডিও টিউটোরিয়াল দেখুন।',
+    safProtection: '24/7 সুরক্ষা এবং দ্রুত প্রতিক্রিয়া',
+    safAssistance: 'তাৎক্ষণিক জরুরি সহায়তা',
+    safPrivateDispatch: 'ব্যক্তিগত জরুরি প্রেরণ, বিচক্ষণ প্রস্থান সিমুলেশন, এবং যাচাইকৃত হেল্পলাইন।',
+    safActivateSOS: 'জরুরী SOS সক্রিয় করুন',
+    safDiscreetExit: 'বিচক্ষণ প্রস্থান কল',
+    safSimulatesCall: 'অস্বস্তিকর বা উত্তেজনাপূর্ণ পরিস্থিতি থেকে বিচক্ষণতার সাথে প্রস্থান করার জন্য একটি ইনকামিং মোবাইল ফোন কলের অনুকরণ করে।',
+    safShareLocation: 'লাইভ অবস্থান শেয়ার করুন',
+    safGeneratesLink: 'বিশ্বস্ত পরিচিতিদের পাঠানোর জন্য একটি ব্যক্তিগত 2-ঘন্টা এনক্রিপ্ট করা GPS ট্র্যাকিং লিঙ্ক তৈরি করে।',
+    safCopyLink: 'ট্র্যাকিং লিঙ্ক কপি করুন',
+    safLinkExpires: 'এই সুরক্ষিত ট্র্যাকিং লিঙ্কটির মেয়াদ 2 ঘন্টার মধ্যে শেষ হবে।',
+    safEmergencyContacts: 'জরুরী পরিচিতি',
+    safDesignateContacts: 'বিশ্বস্ত পরিচিতিদের মনোনীত করুন যারা একটি SOS এর সময় অবিলম্বে আপনার অবস্থান গ্রহণ করবে।',
+    safManageContacts: 'পরিচিতি পরিচালনা করুন',
+    safClose: 'বন্ধ করুন',
+    rigExactScripts: 'সঠিক শব্দ-ব-শব্দ স্ক্রিপ্ট',
+    rigKnowWhatToSay: 'কী বলতে হবে তা জানুন',
+    rigHereIsWhat: 'যদি এটি ঘটে তবে আপনি শব্দে শব্দে কী বলতে পারেন তা এখানে — বাস্তবসম্মত, দৃঢ় এবং আইনি।',
+    rigListenOutLoud: 'জোরে শুনুন',
+    rigCopyScript: 'স্ক্রিপ্ট কপি করুন',
+    rigCopied: 'কপি করা হয়েছে!',
+    rigPlainExplainers: 'সরল-ভাষা ব্যাখ্যাকারী',
+    rigLegalProtections: 'আপনার আইনি সুরক্ষা জানুন',
+    rigUnderstandLegal: 'বিভ্রান্তিকর আইনি শব্দবাদ ছাড়াই সহজ কথায় আপনার আইনি অবস্থান বুঝুন।',
+    rigWorkplacePosh: 'কর্মক্ষেত্র এবং POSH সুরক্ষা',
+    rigMandatoryICC: '10+ কর্মচারী সহ সংস্থাগুলিতে বাধ্যতামূলক ICC কমিটি।',
+    rigEqualProperty: 'সমান সম্পত্তি এবং উত্তরাধিকার অধিকার',
+    rigEqualRights: 'হিন্দু উত্তরাধিকার আইনের অধীনে পৈতৃক সম্পত্তিতে সমান অধিকার।',
+    rigProtectionDV: 'গার্হস্থ্য সহিংসতা থেকে সুরক্ষা',
+    rigRightToReside: 'ভাগ করা বাড়িতে থাকার অধিকার, অন্তর্বর্তীকালীন ত্রাণ এবং সুরক্ষা আদেশ।',
+    rigFreeLegalAid: 'বিনামূল্যে আইনি সহায়তা (NALSA)',
+    rigEveryWoman: 'ভারতের প্রতিটি নারী আইনত যেকোনো আদালতে বিনামূল্যে আইনজীবীর অধিকারী।',
+    rigReadFullGuide: 'সম্পূর্ণ আইনি গাইড পড়ুন',
+
+    homeSearchPlaceholder: 'একটি প্রকল্প, পরিষেবা বা কীভাবে সাহায্য পাবেন তা খুঁজুন...',
+    homeRecTitle: 'আপনার জন্য প্রস্তাবিত',
+    homeRecSub: 'আপনার অবস্থান এবং প্রোফাইলের উপর ভিত্তি করে',
+    homeViewAll: 'সমস্ত প্রকল্প দেখুন',
+    homeTrackApps: 'আপনার অ্যাপ্লিকেশনগুলি ট্র্যাক করুন',
+    homeNearbyTitle: 'আশেপাশের সহায়তা পরিষেবা',
+    homeNearbySub: 'আপনার কাছাকাছি যাচাই করা কেন্দ্রগুলি খুঁজুন',
+    homeViewMap: 'মানচিত্রে দেখুন',
+    homeContactsTitle: 'গুরুত্বপূর্ণ যোগাযোগ',
+    homeContactsSub: 'যাচাই করা হেল্পলাইনগুলিতে দ্রুত অ্যাক্সেস',
+    homeExploreTitle: 'সহায়তা অঞ্চলগুলি অন্বেষণ করুন',
+    homeExploreSub: 'মূল অঞ্চল জুড়ে প্রকল্প, পরিষেবা এবং তথ্য খুঁজুন',
+    homeExpHealth: 'হাসপাতাল, বীমা, মাতৃ যত্ন এবং আরও অনেক কিছু',
+    homeExpWealth: 'সঞ্চয়, পেনশন, সুবিধা এবং বীমা',
+    homeExpLivelihood: 'চাকরি, দক্ষতা প্রশিক্ষণ এবং উদ্যোক্তা',
+    homeExpFinance: 'ঋণ, বৃত্তি এবং আর্থিক সহায়তা',
+    homeExpSafety: 'জরুরী সাহায্য, আইনি সহায়তা এবং সংকট সমর্থন',
+    homeExpRights: 'আপনার অধিকার জানুন এবং আইনি সংস্থান অ্যাক্সেস করুন',
+    wealthRecKicker: 'আপনার জন্য প্রস্তাবিত',
+    wealthSchemesTitle: 'আর্থিক প্রকল্প',
+    wealthSchemesSub: 'আপনার অবস্থান এবং প্রোফাইলের উপর ভিত্তি করে।',
+    wealthSearchPlaceholder: 'কীওয়ার্ড বা স্কিম দ্বারা অনুসন্ধান করুন',
+    wealthResetFilters: 'ফিল্টার রিসেট করুন',
+    wealthViewAll: 'সমস্ত প্রকল্প দেখুন',
+    wealthTrackApps: 'আপনার অ্যাপ্লিকেশনগুলি ট্র্যাক করুন',
+    wealthHeroKicker: 'একটি উজ্জ্বল আগামী তৈরি করা',
+    wealthHeroTitle: 'ছোট পদক্ষেপ,',
+    wealthHeroTitle2: 'বড় আর্থিক স্বাধীনতা।',
+    wealthHeroDesc: 'আপনার জন্য তৈরি সঞ্চয়, ঋণ, বীমা এবং বিনিয়োগ প্রকল্পগুলি অন্বেষণ করুন।',
+    wealthStartExplore: 'অন্বেষণ শুরু করুন',
+    wealthPlan: 'পরিকল্পনা',
+    wealthSave: 'সঞ্চয়',
+    wealthGrow: 'বৃদ্ধি',
+    wealthExploreGoalTitle: 'লক্ষ্য দ্বারা অন্বেষণ করুন',
+    wealthViewAllGoals: 'সব দেখুন',
+    wealthExploreGoalSub: 'আপনার প্রয়োজনের জন্য সঠিক প্রকল্প এবং সরঞ্জাম খুঁজুন।',
+    wealthSnapshotTitle: 'আপনার আর্থিক স্ন্যাপশট',
+    wealthSnapshotSub: 'আপনার অগ্রগতি ট্র্যাক এবং পরিচালনা করুন।',
+    wealthSavedSchemes: 'সংরক্ষিত প্রকল্প',
+    wealthApplications: 'অ্যাপ্লিকেশন',
+    wealthDeadlines: 'আসন্ন সময়সীমা',
+    wealthNotes: 'ব্যক্তিগত নোট',
+    wealthNeedHelpTitle: 'সাহায্য প্রয়োজন?',
+    wealthNeedHelpSub: 'যাচাই করা বিশেষজ্ঞ বা হেল্পলাইন থেকে দিকনির্দেশনা পান।',
+    wealthHelpHelpline: 'আর্থিক হেল্পলাইনের সাথে কথা বলুন',
+    wealthHelpAsk: 'উন্নতিকে জিজ্ঞাসা করুন',
+    wealthHelpAskSub: 'ধাপে ধাপে দিকনির্দেশনা পান',
+    wealthHelpGuide: 'আর্থিক সাক্ষরতা নির্দেশিকা',
+    wealthHelpGuideSub: 'ব্যাংকিং, সঞ্চয়, বিনিয়োগ এবং জালিয়াতি এড়ানোর বুনিয়াদি শিখুন।',
+
     nav: { home: 'হোম', health: 'স্বাস্থ্য', wealth: 'সম্পদ', livelihood: 'জীবিকা', finance: 'অর্থায়ন', safety: 'নিরাপত্তা', rights: 'অধিকার' },
     sos: 'জরুরি',
     signin: 'সাইন ইন',
@@ -105,6 +853,130 @@ const TRANSLATIONS = {
     allowLocation: 'লোকেশন চালু করুন',
   },
   Telugu: {
+    finVerifiedSchemes: 'ధృవీకరించబడిన పథకాలు',
+    finGovPrograms: 'మీ స్థానం & అవసరాలకు సరిపోలే ప్రభుత్వ కార్యక్రమాలు.',
+    finSearchPlaceholder: 'కీవర్డ్ లేదా స్కీమ్ ద్వారా శోధించండి',
+    finCheckEligibility: 'అర్హతను తనిఖీ చేయండి',
+    finBudgetTracking: 'నెలవారీ బడ్జెట్ ట్రాకింగ్',
+    finExpenseTracker: 'ఖర్చుల ట్రాకర్',
+    finAddExpense: 'ఖర్చును జోడించండి',
+    finCancel: 'రద్దు చేయండి',
+    finSpent: 'ఖర్చు చేసినది ₹',
+    finOf: 'లో ₹',
+    finRemaining: 'నెలవారీ భత్యంలో మిగిలి ఉన్నది',
+    finDescPlaceholder: 'వివరణ (ఉదా. కిరాణా, పాఠశాల ఫీజులు...)',
+    finAmountPlaceholder: 'మొత్తం (₹)',
+    finSaveExpense: 'ఖర్చును సేవ్ చేయండి',
+    finNoExpenses: 'ఇంకా ఎలాంటి ఖర్చులు నమోదు కాలేదు',
+    finClickAdd: 'మీ రోజువారీ ఇంటి ఖర్చులను ట్రాక్ చేయడానికి<br/>పైన ఉన్న "+ ఖర్చును జోడించు" క్లిక్ చేయండి.',
+    finUsageOverview: 'వినియోగం అవలోకనం',
+    finMonthlyLimit: 'నెలవారీ పరిమితి & హెచ్చరికలు',
+    finBudgetUtilized: 'ఉపయోగించిన బడ్జెట్',
+    finBudgetCheckin: 'బడ్జెట్ చెక్-ఇన్',
+    finYouHave: 'మీ వద్ద ₹',
+    finRemainingMonth: 'ఈ నెల మిగిలి ఉన్నాయి.',
+    finCloseLimit: ' మీరు షాపింగ్ కోసం మీ నెలవారీ పరిమితికి చేరువలో ఉన్నారు.',
+    finComfortable: ' మీరు మీ నెలవారీ కేటాయింపులో సౌకర్యవంతంగా ఉన్నారు.',
+    finProTip: 'ప్రో-టిప్',
+    finProTipDesc: 'సుకన్య సమృద్ధి లేదా PPFలో నెలకు కేవలం ₹200 పెడితే 8.2% గ్యారెంటీ రిటర్న్ వస్తుంది.',
+    finSavingsGoals: 'పొదుపు లక్ష్యాలు',
+    finSetGoals: 'ప్రేరణతో ఉండటానికి మరియు మెరుగ్గా ప్లాన్ చేయడానికి మీ లక్ష్యాలను నిర్దేశించుకోండి.',
+    finGoalsSet: 'లక్ష్యాలు సెట్ చేయబడ్డాయి',
+    finUpdateGoal: 'లక్ష్యాన్ని నవీకరించండి',
+    finAddGoal: 'లక్ష్యాన్ని జోడించండి',
+    finCheckFullEligibility: 'పూర్తి అర్హతను తనిఖీ చేసి దరఖాస్తు చేసుకోండి',
+    livCareerAdv: 'కెరీర్ పురోగతి',
+    livResumeCreator: 'ప్రొఫెషనల్ రెజ్యూమ్ / CV క్రియేటర్',
+    livAtsFriendly: 'హెల్త్‌కేర్, రిటైల్, కోఆర్డినేటర్ మరియు ఆఫీసు పాత్రల కోసం రూపొందించబడిన ATS-స్నేహపూర్వక ఆకృతులు.',
+    livBuildResume: 'నా రెజ్యూమ్‌ను రూపొందించండి',
+    livAiVoice: 'AI వాయిస్ ప్రాక్టీస్',
+    livInterviewSim: 'ఇంటర్వ్యూ సిమ్యులేటర్',
+    livPracticeReal: 'మీ భాషలో నిజమైన ఇంటర్వ్యూ ప్రశ్నలను బిగ్గరగా ప్రాక్టీస్ చేయండి. విశ్వాసం, స్పష్టత మరియు టోన్ కోసం తక్షణ AI స్కోర్‌లను పొందండి.',
+    livStartVoice: 'వాయిస్ ప్రాక్టీస్ ప్రారంభించండి',
+    livVideoGuides: '🎬 <strong>వీడియో గైడ్‌లు:</strong> జీతం ప్రశ్నలకు సమాధానమివ్వడం మరియు మీ గత విజయాలను నమ్మకంగా పరిచయం చేయడంపై 5 నిమిషాల వీడియో ట్యుటోరియల్‌లను చూడండి.',
+    safProtection: '24/7 రక్షణ & వేగవంతమైన ప్రతిస్పందన',
+    safAssistance: 'తక్షణ అత్యవసర సహాయం',
+    safPrivateDispatch: 'ప్రైవేట్ ఎమర్జెన్సీ డిస్పాచ్, వివేకవంతమైన నిష్క్రమణ అనుకరణ మరియు ధృవీకరించబడిన హెల్ప్‌లైన్‌లు.',
+    safActivateSOS: 'అత్యవసర SOSని సక్రియం చేయండి',
+    safDiscreetExit: 'వివేకవంతమైన నిష్క్రమణ కాల్',
+    safSimulatesCall: 'అసౌకర్య లేదా ఉద్రిక్త పరిస్థితుల నుండి వివేకంతో నిష్క్రమించడానికి ఇన్‌కమింగ్ మొబైల్ ఫోన్ కాల్‌ను అనుకరిస్తుంది.',
+    safShareLocation: 'లైవ్ లొకేషన్‌ను షేర్ చేయండి',
+    safGeneratesLink: 'విశ్వసనీయ పరిచయాలకు పంపడానికి ప్రైవేట్ 2-గంటల ఎన్‌క్రిప్ట్ చేయబడిన GPS ట్రాకింగ్ లింక్‌ను రూపొందిస్తుంది.',
+    safCopyLink: 'ట్రాకింగ్ లింక్‌ను కాపీ చేయండి',
+    safLinkExpires: 'ఈ సురక్షిత ట్రాకింగ్ లింక్ 2 గంటల్లో ముగుస్తుంది.',
+    safEmergencyContacts: 'అత్యవసర పరిచయాలు',
+    safDesignateContacts: 'SOS సమయంలో వెంటనే మీ లొకేషన్‌ను స్వీకరించే విశ్వసనీయ పరిచయాలను నియమించండి.',
+    safManageContacts: 'పరిచయాలను నిర్వహించండి',
+    safClose: 'మూసివేయి',
+    rigExactScripts: 'ఖచ్చితమైన వర్డ్-ఫర్-వర్డ్ స్క్రిప్ట్‌లు',
+    rigKnowWhatToSay: 'ఏం చెప్పాలో తెలుసుకోండి',
+    rigHereIsWhat: 'ఇది జరిగితే మీరు మాటకొక మాట ఏం చెప్పగలరో ఇక్కడ ఉంది — ఆచరణాత్మకమైనది, నొక్కి చెప్పేది మరియు చట్టబద్ధమైనది.',
+    rigListenOutLoud: 'బిగ్గరగా వినండి',
+    rigCopyScript: 'స్క్రిప్ట్‌ను కాపీ చేయండి',
+    rigCopied: 'కాపీ చేయబడింది!',
+    rigPlainExplainers: 'సాధారణ భాషా వివరణలు',
+    rigLegalProtections: 'మీ చట్టపరమైన రక్షణలను తెలుసుకోండి',
+    rigUnderstandLegal: 'గందరగోళపరిచే చట్టపరమైన పదజాలం లేకుండా సాధారణ పదాలలో మీ చట్టపరమైన స్థితిని అర్థం చేసుకోండి.',
+    rigWorkplacePosh: 'పని ప్రదేశం & POSH రక్షణ',
+    rigMandatoryICC: '10+ మంది ఉద్యోగులు ఉన్న సంస్థలలో తప్పనిసరి ICC కమిటీలు.',
+    rigEqualProperty: 'సమాన ఆస్తి & వారసత్వ హక్కులు',
+    rigEqualRights: 'హిందూ వారసత్వ చట్టం కింద పూర్వీకుల ఆస్తిలో సమాన హక్కులు.',
+    rigProtectionDV: 'గృహ హింస నుండి రక్షణ',
+    rigRightToReside: 'భాగస్వామ్య గృహంలో నివసించే హక్కు, మధ్యంతర ఉపశమనం & రక్షణ ఉత్తర్వులు.',
+    rigFreeLegalAid: 'ఉచిత న్యాయ సహాయం (NALSA)',
+    rigEveryWoman: 'భారతదేశంలోని ప్రతి స్త్రీ ఏ కోర్టులోనైనా ఉచిత న్యాయవాదులకు చట్టబద్ధంగా అర్హులు.',
+    rigReadFullGuide: 'పూర్తి లీగల్ గైడ్ చదవండి',
+
+    homeSearchPlaceholder: 'పథకం, సేవ లేదా సహాయం ఎలా పొందాలో శోధించండి...',
+    homeRecTitle: 'మీ కోసం సిఫార్సు చేయబడింది',
+    homeRecSub: 'మీ స్థానం మరియు ప్రొఫైల్ ఆధారంగా',
+    homeViewAll: 'అన్ని పథకాలను వీక్షించండి',
+    homeTrackApps: 'మీ దరఖాస్తులను ట్రాక్ చేయండి',
+    homeNearbyTitle: 'సమీప మద్దతు సేవలు',
+    homeNearbySub: 'మీకు సమీపంలో ధృవీకరించబడిన కేంద్రాలను కనుగొనండి',
+    homeViewMap: 'మ్యాప్‌లో వీక్షించండి',
+    homeContactsTitle: 'ముఖ్యమైన పరిచయాలు',
+    homeContactsSub: 'ధృవీకరించబడిన హెల్ప్‌లైన్‌లకు త్వరిత యాక్సెస్',
+    homeExploreTitle: 'మద్దతు ప్రాంతాలను అన్వేషించండి',
+    homeExploreSub: 'కీలక ప్రాంతాల్లో పథకాలు, సేవలు మరియు సమాచారాన్ని కనుగొనండి',
+    homeExpHealth: 'ఆసుపత్రులు, భీమా, ప్రసూతి సంరక్షణ మరియు మరిన్ని',
+    homeExpWealth: 'పొదుపు, పెన్షన్లు, ప్రయోజనాలు మరియు భీమా',
+    homeExpLivelihood: 'ఉద్యోగాలు, నైపుణ్య శిక్షణ మరియు వ్యవస్థాపకత',
+    homeExpFinance: 'రుణాలు, స్కాలర్‌షిప్‌లు మరియు ఆర్థిక సహాయం',
+    homeExpSafety: 'అత్యవసర సహాయం, న్యాయ సహాయం మరియు సంక్షోభ మద్దతు',
+    homeExpRights: 'మీ హక్కులను తెలుసుకోండి మరియు న్యాయ వనరులను యాక్సెస్ చేయండి',
+    wealthRecKicker: 'మీ కోసం సిఫార్సు చేయబడింది',
+    wealthSchemesTitle: 'ఆర్థిక పథకాలు',
+    wealthSchemesSub: 'మీ స్థానం మరియు ప్రొఫైల్ ఆధారంగా.',
+    wealthSearchPlaceholder: 'కీవర్డ్ లేదా స్కీమ్ ద్వారా శోధించండి',
+    wealthResetFilters: 'ఫిల్టర్‌లను రీసెట్ చేయండి',
+    wealthViewAll: 'అన్ని పథకాలను వీక్షించండి',
+    wealthTrackApps: 'మీ దరఖాస్తులను ట్రాక్ చేయండి',
+    wealthHeroKicker: 'ఉజ్వల భవిష్యత్తును నిర్మించడం',
+    wealthHeroTitle: 'చిన్న అడుగులు,',
+    wealthHeroTitle2: 'పెద్ద ఆర్థిక స్వేచ్ఛ.',
+    wealthHeroDesc: 'మీ కోసం రూపొందించిన పొదుపు, రుణాలు, భీమా మరియు పెట్టుబడి పథకాలను అన్వేషించండి.',
+    wealthStartExplore: 'అన్వేషించడం ప్రారంభించండి',
+    wealthPlan: 'ప్రణాళిక',
+    wealthSave: 'పొదుపు',
+    wealthGrow: 'పెరుగుదల',
+    wealthExploreGoalTitle: 'లక్ష్యం ద్వారా అన్వేషించండి',
+    wealthViewAllGoals: 'అన్నీ వీక్షించండి',
+    wealthExploreGoalSub: 'మీ అవసరాలకు సరైన పథకాలు మరియు సాధనాలను కనుగొనండి.',
+    wealthSnapshotTitle: 'మీ ఆర్థిక స్నాప్‌షాట్',
+    wealthSnapshotSub: 'మీ పురోగతిని ట్రాక్ చేయండి మరియు నిర్వహించండి.',
+    wealthSavedSchemes: 'సేవ్ చేసిన పథకాలు',
+    wealthApplications: 'దరఖాస్తులు',
+    wealthDeadlines: 'రాబోయే గడువులు',
+    wealthNotes: 'వ్యక్తిగత గమనికలు',
+    wealthNeedHelpTitle: 'సహాయం కావాలా?',
+    wealthNeedHelpSub: 'ధృవీకరించబడిన నిపుణులు లేదా హెల్ప్‌లైన్‌ల నుండి మార్గదర్శకత్వం పొందండి.',
+    wealthHelpHelpline: 'ఫైనాన్షియల్ హెల్ప్‌లైన్‌తో మాట్లాడండి',
+    wealthHelpAsk: 'ఉన్నతిని అడగండి',
+    wealthHelpAskSub: 'దశల వారీ మార్గదర్శకత్వం పొందండి',
+    wealthHelpGuide: 'ఆర్థిక అక్షరాస్యత గైడ్',
+    wealthHelpGuideSub: 'బ్యాంకింగ్, పొదుపు, పెట్టుబడి మరియు మోసాలను నివారించడం గురించి తెలుసుకోండి.',
+
     nav: { home: 'హోమ్', health: 'ఆరోగ్యం', wealth: 'సంపద', livelihood: 'జీవనోపాధి', finance: 'ఆర్థికం', safety: 'రక్షణ', rights: 'హక్కులు' },
     sos: 'అత్యవసరం',
     signin: 'సైన్ ఇన్',
@@ -121,6 +993,130 @@ const TRANSLATIONS = {
     allowLocation: 'లొకేషన్ ప్రారంభించండి',
   },
   Gujarati: {
+    finVerifiedSchemes: 'ચકાસાયેલ યોજનાઓ',
+    finGovPrograms: 'તમારા સ્થાન અને જરૂરિયાતો સાથે મેળ ખાતા સરકારી કાર્યક્રમો.',
+    finSearchPlaceholder: 'કીવર્ડ અથવા યોજના દ્વારા શોધો',
+    finCheckEligibility: 'પાત્રતા તપાસો',
+    finBudgetTracking: 'માસિક બજેટ ટ્રેકિંગ',
+    finExpenseTracker: 'ખર્ચ ટ્રેકર',
+    finAddExpense: 'ખર્ચ ઉમેરો',
+    finCancel: 'રદ કરો',
+    finSpent: 'ખર્ચ્યા ₹',
+    finOf: 'માંથી ₹',
+    finRemaining: 'માસિક ભથ્થામાં બાકી',
+    finDescPlaceholder: 'વર્ણન (દા.ત. કરિયાણું, શાળાની ફી...)',
+    finAmountPlaceholder: 'રકમ (₹)',
+    finSaveExpense: 'ખર્ચ સાચવો',
+    finNoExpenses: 'હજી સુધી કોઈ ખર્ચ નોંધાયેલ નથી',
+    finClickAdd: 'તમારા રોજિંદા ઘરગથ્થુ ખર્ચને ટ્રૅક કરવા માટે<br/>ઉપર "+ ખર્ચ ઉમેરો" પર ક્લિક કરો.',
+    finUsageOverview: 'ઉપયોગની ઝાંખી',
+    finMonthlyLimit: 'માસિક મર્યાદા અને ચેતવણીઓ',
+    finBudgetUtilized: 'બજેટ વપરાયેલ',
+    finBudgetCheckin: 'બજેટ ચેક-ઇન',
+    finYouHave: 'તમારી પાસે ₹',
+    finRemainingMonth: 'આ મહિને બાકી છે.',
+    finCloseLimit: ' તમે ખરીદી માટે તમારી માસિક મર્યાદાની નજીક છો.',
+    finComfortable: ' તમે તમારી માસિક ફાળવણીની અંદર આરામદાયક છો.',
+    finProTip: 'પ્રો-ટીપ',
+    finProTipDesc: 'સુકન્યા સમૃદ્ધિ અથવા PPFમાં મહિને માત્ર ₹200 મૂકવાથી 8.2% ગેરંટીડ વળતર મળે છે.',
+    finSavingsGoals: 'બચત લક્ષ્યો',
+    finSetGoals: 'પ્રેરિત રહેવા અને વધુ સારી યોજના બનાવવા માટે તમારા લક્ષ્યો નક્કી કરો.',
+    finGoalsSet: 'લક્ષ્યો સેટ',
+    finUpdateGoal: 'લક્ષ્ય અપડેટ કરો',
+    finAddGoal: 'લક્ષ્ય ઉમેરો',
+    finCheckFullEligibility: 'સંપૂર્ણ પાત્રતા તપાસો અને અરજી કરો',
+    livCareerAdv: 'કારકિર્દી પ્રગતિ',
+    livResumeCreator: 'વ્યાવસાયિક રેઝ્યૂમે / સીવી સર્જક',
+    livAtsFriendly: 'હેલ્થકેર, રિટેલ, કોઓર્ડિનેટર અને ઓફિસની ભૂમિકાઓ માટે રચાયેલ ATS-મૈત્રીપૂર્ણ ફોર્મેટ.',
+    livBuildResume: 'મારો રેઝ્યૂમે બનાવો',
+    livAiVoice: 'AI વૉઇસ પ્રેક્ટિસ',
+    livInterviewSim: 'ઇન્ટરવ્યુ સિમ્યુલેટર',
+    livPracticeReal: 'તમારી ભાષામાં વાસ્તવિક ઇન્ટરવ્યુ પ્રશ્નોની મોટેથી પ્રેક્ટિસ કરો. આત્મવિશ્વાસ, સ્પષ્ટતા અને ટોન માટે ત્વરિત AI સ્કોર્સ મેળવો.',
+    livStartVoice: 'વૉઇસ પ્રેક્ટિસ શરૂ કરો',
+    livVideoGuides: '🎬 <strong>વિડિઓ માર્ગદર્શિકાઓ:</strong> પગારના પ્રશ્નોના જવાબ આપવા અને તમારી ભૂતકાળની સિદ્ધિઓને આત્મવિશ્વાસ સાથે રજૂ કરવા પર 5-મિનિટના વિડિઓ ટ્યુટોરિયલ્સ જુઓ.',
+    safProtection: '24/7 સુરક્ષા અને ઝડપી પ્રતિસાદ',
+    safAssistance: 'તાત્કાલિક કટોકટી સહાય',
+    safPrivateDispatch: 'ખાનગી ઈમરજન્સી ડિસ્પેચ, સમજદાર એક્ઝિટ સિમ્યુલેશન અને ચકાસાયેલ હેલ્પલાઈન.',
+    safActivateSOS: 'ઇમરજન્સી SOS સક્રિય કરો',
+    safDiscreetExit: 'સમજદાર એક્ઝિટ કૉલ',
+    safSimulatesCall: 'અસ્વસ્થતા અથવા તંગ પરિસ્થિતિઓમાંથી સમજદારીપૂર્વક બહાર નીકળવા માટે ઇનકમિંગ મોબાઇલ ફોન કૉલનું અનુકરણ કરે છે.',
+    safShareLocation: 'લાઇવ લોકેશન શેર કરો',
+    safGeneratesLink: 'વિશ્વસનીય સંપર્કોને મોકલવા માટે ખાનગી 2-કલાકની એન્ક્રિપ્ટેડ GPS ટ્રેકિંગ લિંક જનરેટ કરે છે.',
+    safCopyLink: 'ટ્રેકિંગ લિંક કૉપિ કરો',
+    safLinkExpires: 'આ સુરક્ષિત ટ્રેકિંગ લિંક 2 કલાકમાં સમાપ્ત થાય છે.',
+    safEmergencyContacts: 'ઇમરજન્સી સંપર્કો',
+    safDesignateContacts: 'વિશ્વસનીય સંપર્કો નિયુક્ત કરો જેઓ SOS દરમિયાન તરત જ તમારું સ્થાન પ્રાપ્ત કરશે.',
+    safManageContacts: 'સંપર્કો મેનેજ કરો',
+    safClose: 'બંધ કરો',
+    rigExactScripts: 'ચોક્કસ શબ્દ-દર-શબ્દ સ્ક્રિપ્ટ્સ',
+    rigKnowWhatToSay: 'શું કહેવું તે જાણો',
+    rigHereIsWhat: 'અહીં તે છે જે તમે શબ્દશઃ કહી શકો છો, જો આવું થાય છે — વ્યવહારુ, અડગ અને કાનૂની.',
+    rigListenOutLoud: 'મોટેથી સાંભળો',
+    rigCopyScript: 'સ્ક્રિપ્ટ કૉપિ કરો',
+    rigCopied: 'કૉપિ કર્યું!',
+    rigPlainExplainers: 'સરળ ભાષામાં સમજૂતી',
+    rigLegalProtections: 'તમારી કાનૂની સુરક્ષા જાણો',
+    rigUnderstandLegal: 'ગૂંચવણભરી કાનૂની પરિભાષા વિના સરળ શબ્દોમાં તમારી કાનૂની સ્થિતિને સમજો.',
+    rigWorkplacePosh: 'કાર્યસ્થળ અને POSH સુરક્ષા',
+    rigMandatoryICC: '10+ કર્મચારીઓ ધરાવતી સંસ્થાઓમાં ફરજિયાત ICC સમિતિઓ.',
+    rigEqualProperty: 'સમાન સંપત્તિ અને વારસાના અધિકારો',
+    rigEqualRights: 'હિન્દુ ઉત્તરાધિકાર અધિનિયમ હેઠળ પૈતૃક સંપત્તિમાં સમાન અધિકાર.',
+    rigProtectionDV: 'ઘરેલું હિંસાથી રક્ષણ',
+    rigRightToReside: 'શેર કરેલ ઘરમાં રહેવાનો અધિકાર, વચગાળાની રાહત અને સુરક્ષા આદેશો.',
+    rigFreeLegalAid: 'મફત કાનૂની સહાય (NALSA)',
+    rigEveryWoman: 'ભારતમાં દરેક મહિલા કાયદેસર રીતે કોઈપણ કોર્ટમાં મફત વકીલો માટે હકદાર છે.',
+    rigReadFullGuide: 'સંપૂર્ણ કાનૂની માર્ગદર્શિકા વાંચો',
+
+    homeSearchPlaceholder: 'કોઈ યોજના, સેવા અથવા મદદ કેવી રીતે મેળવવી તે શોધો...',
+    homeRecTitle: 'તમારા માટે ભલામણ કરેલ',
+    homeRecSub: 'તમારા સ્થાન અને પ્રોફાઇલના આધારે',
+    homeViewAll: 'તમામ યોજનાઓ જુઓ',
+    homeTrackApps: 'તમારી અરજીઓ ટ્રૅક કરો',
+    homeNearbyTitle: 'નજીકની સહાય સેવાઓ',
+    homeNearbySub: 'તમારી નજીકના ચકાસાયેલ કેન્દ્રો શોધો',
+    homeViewMap: 'નકશા પર જુઓ',
+    homeContactsTitle: 'મહત્વપૂર્ણ સંપર્કો',
+    homeContactsSub: 'ચકાસાયેલ હેલ્પલાઇન્સની ઝડપી ઍક્સેસ',
+    homeExploreTitle: 'સહાય વિસ્તારોનું અન્વેષણ કરો',
+    homeExploreSub: 'મુખ્ય વિસ્તારોમાં યોજનાઓ, સેવાઓ અને માહિતી શોધો',
+    homeExpHealth: 'હોસ્પિટલો, વીમા, પ્રસૂતિ સંભાળ અને વધુ',
+    homeExpWealth: 'બચત, પેન્શન, લાભો અને વીમા',
+    homeExpLivelihood: 'નોકરીઓ, કૌશલ્ય તાલીમ અને ઉદ્યોગસાહસિકતા',
+    homeExpFinance: 'લોન, શિષ્યવૃત્તિ અને નાણાકીય સહાય',
+    homeExpSafety: 'કટોકટી મદદ, કાનૂની સહાય અને કટોકટી આધાર',
+    homeExpRights: 'તમારા અધિકારો જાણો અને કાનૂની સંસાધનોની ઍક્સેસ મેળવો',
+    wealthRecKicker: 'તમારા માટે ભલામણ કરેલ',
+    wealthSchemesTitle: 'નાણાકીય યોજનાઓ',
+    wealthSchemesSub: 'તમારા સ્થાન અને પ્રોફાઇલના આધારે.',
+    wealthSearchPlaceholder: 'કીવર્ડ અથવા યોજના દ્વારા શોધો',
+    wealthResetFilters: 'ફિલ્ટર્સ રીસેટ કરો',
+    wealthViewAll: 'તમામ યોજનાઓ જુઓ',
+    wealthTrackApps: 'તમારી અરજીઓ ટ્રૅક કરો',
+    wealthHeroKicker: 'ઉજ્જવળ આવતીકાલનું નિર્માણ',
+    wealthHeroTitle: 'નાના પગલાં,',
+    wealthHeroTitle2: 'મોટી નાણાકીય સ્વતંત્રતા.',
+    wealthHeroDesc: 'તમારા માટે બનાવેલી બચત, લોન, વીમા અને રોકાણ યોજનાઓનું અન્વેષણ કરો.',
+    wealthStartExplore: 'અન્વેષણ કરવાનું શરૂ કરો',
+    wealthPlan: 'યોજના',
+    wealthSave: 'બચત',
+    wealthGrow: 'વિકાસ',
+    wealthExploreGoalTitle: 'લક્ષ્ય દ્વારા અન્વેષણ કરો',
+    wealthViewAllGoals: 'બધા જુઓ',
+    wealthExploreGoalSub: 'તમારી જરૂરિયાતો માટે યોગ્ય યોજનાઓ અને સાધનો શોધો.',
+    wealthSnapshotTitle: 'તમારો નાણાકીય સ્નેપશોટ',
+    wealthSnapshotSub: 'તમારી પ્રગતિને ટ્રૅક કરો અને સંચાલિત કરો.',
+    wealthSavedSchemes: 'સાચવેલી યોજનાઓ',
+    wealthApplications: 'અરજીઓ',
+    wealthDeadlines: 'આગામી સમયમર્યાદા',
+    wealthNotes: 'વ્યક્તિગત નોંધો',
+    wealthNeedHelpTitle: 'મદદ જોઈએ છે?',
+    wealthNeedHelpSub: 'ચકાસાયેલ નિષ્ણાતો અથવા હેલ્પલાઇન્સ પાસેથી માર્ગદર્શન મેળવો.',
+    wealthHelpHelpline: 'નાણાકીય હેલ્પલાઇન સાથે વાત કરો',
+    wealthHelpAsk: 'ઉન્નતિને પૂછો',
+    wealthHelpAskSub: 'સ્ટેપ-બાય-સ્ટેપ માર્ગદર્શન મેળવો',
+    wealthHelpGuide: 'નાણાકીય સાક્ષરતા માર્ગદર્શિકા',
+    wealthHelpGuideSub: 'બેંકિંગ, બચત, રોકાણ અને છેતરપિંડી ટાળવાની મૂળભૂત બાબતો શીખો.',
+
     nav: { home: 'હોમ', health: 'આરોગ્ય', wealth: 'સંપત્તિ', livelihood: 'આજીવિકા', finance: 'નાણાં', safety: 'સુરક્ષા', rights: 'અધિકાર' },
     sos: 'ઇમરજન્સી',
     signin: 'સાઇન ઇન',
@@ -717,7 +1713,7 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
           className="home-search-input"
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
-          placeholder="Search for a scheme, service or how to get help..."
+          placeholder={t?.homeSearchPlaceholder || "Search for a scheme, service or how to get help..."}
         />
         <button type="submit" className="home-search-submit" title="Search">
           <ArrowRight size={17}/>
@@ -729,8 +1725,8 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
         {/* Column 1: Recommended for you */}
         <section className="home-white-card">
           <div className="home-card-header">
-            <h3 className="home-card-title">Recommended for you</h3>
-            <p className="home-card-subtitle">Based on your location and profile</p>
+            <h3 className="home-card-title">{t?.homeRecTitle || "Recommended for you"}</h3>
+            <p className="home-card-subtitle">{t?.homeRecSub || "Based on your location and profile"}</p>
           </div>
 
           {loadingSchemes ? (
@@ -766,11 +1762,11 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
           )}
 
           <button className="rec-scheme-btn" onClick={() => onToast('Connect backend API to load scheme catalog.')}>
-            View all schemes <ArrowRight size={14}/>
+            {t?.homeViewAll || "View all schemes"} <ArrowRight size={14}/>
           </button>
 
           <button className="rec-track-link" onClick={onOpenTracker}>
-            Track your applications
+            {t?.homeTrackApps || "Track your applications"}
           </button>
         </section>
 
@@ -778,8 +1774,8 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
         <section className="home-white-card">
           <div className="home-card-header row-between">
             <div>
-              <h3 className="home-card-title">Nearby Support Services</h3>
-              <p className="home-card-subtitle">Find verified centers near you</p>
+              <h3 className="home-card-title">{t?.homeNearbyTitle || "Nearby Support Services"}</h3>
+              <p className="home-card-subtitle">{t?.homeNearbySub || "Find verified centers near you"}</p>
             </div>
             <select
               value={selectedState}
@@ -836,7 +1832,7 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
           <div className="nearby-map-footer">
             <span>3 verified centers in {selectedState}</span>
             <button className="nearby-view-link" onClick={() => onToast('Full regional map view loaded.')}>
-              View on map <ArrowRight size={13}/>
+              {t?.homeViewMap || "View on map"} <ArrowRight size={13}/>
             </button>
           </div>
         </section>
@@ -844,8 +1840,8 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
         {/* Column 3: Important Contacts */}
         <section className="home-white-card">
           <div className="home-card-header">
-            <h3 className="home-card-title">Important Contacts</h3>
-            <p className="home-card-subtitle">Quick access to verified helplines</p>
+            <h3 className="home-card-title">{t?.homeContactsTitle || "Important Contacts"}</h3>
+            <p className="home-card-subtitle">{t?.homeContactsSub || "Quick access to verified helplines"}</p>
           </div>
 
           <div className="helplines-list">
@@ -866,50 +1862,50 @@ function HomePage({ onToast, onNav, onOpenTracker, t }) {
 
       {/* Bottom Full-Width Card: Explore Support Areas matching user reference */}
       <section className="explore-areas-card">
-        <h3 className="home-card-title">Explore Support Areas</h3>
-        <p className="home-card-subtitle">Find schemes, services and information across key areas</p>
+        <h3 className="home-card-title">{t?.homeExploreTitle || "Explore Support Areas"}</h3>
+        <p className="home-card-subtitle">{t?.homeExploreSub || "Find schemes, services and information across key areas"}</p>
 
         <div className="explore-areas-grid">
           {/* Health */}
           <div className="explore-area-chip" onClick={() => onNav('health')}>
             <Heart size={20} className="explore-area-icon"/>
             <strong>Health</strong>
-            <p>Hospitals, insurance, maternal care and more</p>
+            <p>{t?.homeExpHealth || "Hospitals, insurance, maternal care and more"}</p>
           </div>
 
           {/* Wealth */}
           <div className="explore-area-chip" onClick={() => onNav('wealth')}>
             <Award size={20} className="explore-area-icon"/>
             <strong>Wealth</strong>
-            <p>Savings, pensions, benefits and insurance</p>
+            <p>{t?.homeExpWealth || "Savings, pensions, benefits and insurance"}</p>
           </div>
 
           {/* Livelihood */}
           <div className="explore-area-chip" onClick={() => onNav('livelihood')}>
             <BriefcaseBusiness size={20} className="explore-area-icon"/>
             <strong>Livelihood</strong>
-            <p>Jobs, skill training and entrepreneurship</p>
+            <p>{t?.homeExpLivelihood || "Jobs, skill training and entrepreneurship"}</p>
           </div>
 
           {/* Finance */}
           <div className="explore-area-chip" onClick={() => onNav('finance')}>
             <Sliders size={20} className="explore-area-icon"/>
             <strong>Finance</strong>
-            <p>Loans, scholarships and financial support</p>
+            <p>{t?.homeExpFinance || "Loans, scholarships and financial support"}</p>
           </div>
 
           {/* Safety */}
           <div className="explore-area-chip" onClick={() => onNav('safety')}>
             <ShieldAlert size={20} className="explore-area-icon"/>
             <strong>Safety</strong>
-            <p>Emergency help, legal aid and crisis support</p>
+            <p>{t?.homeExpSafety || "Emergency help, legal aid and crisis support"}</p>
           </div>
 
           {/* Rights */}
           <div className="explore-area-chip" onClick={() => onNav('rights')}>
             <FileText size={20} className="explore-area-icon"/>
             <strong>Rights</strong>
-            <p>Know your rights and access legal resources</p>
+            <p>{t?.homeExpRights || "Know your rights and access legal resources"}</p>
           </div>
         </div>
       </section>
@@ -922,8 +1918,8 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
   // Column 1: Verified Schemes Search & List
   const [schemeQuery, setSchemeQuery] = useState('');
 
-  // 3 Verified government schemes matching screenshot
-  const HEALTH_SCHEMES = [
+  // 3 Verified government schemes matching screenshot (localized if available)
+  const defaultSchemes = [
     {
       id: 'pmjay',
       name: 'Ayushman Bharat (PM-JAY)',
@@ -941,7 +1937,9 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
     }
   ];
 
-  const filteredSchemes = HEALTH_SCHEMES.filter(s =>
+  const healthSchemes = t?.healthSchemes || defaultSchemes;
+
+  const filteredSchemes = healthSchemes.filter(s =>
     !schemeQuery.trim() ||
     s.name.toLowerCase().includes(schemeQuery.toLowerCase()) ||
     s.desc.toLowerCase().includes(schemeQuery.toLowerCase())
@@ -994,10 +1992,10 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
       <div className="health-trio-grid">
         {/* Column 1: Verified Schemes */}
         <section className="health-white-card">
-          <span className="health-kicker"># RECOMMENDED FOR YOU</span>
-          <h3 className="health-card-title">Verified Schemes</h3>
+          <span className="health-kicker">{t?.healthKickerRec || '# RECOMMENDED FOR YOU'}</span>
+          <h3 className="health-card-title">{t?.healthVerifiedSchemesTitle || 'Verified Schemes'}</h3>
           <p className="health-card-subtitle">
-            Government programs matching your location & requirements.
+            {t?.healthVerifiedSchemesSub || 'Government programs matching your location & requirements.'}
           </p>
 
           <div className="health-scheme-search">
@@ -1005,7 +2003,7 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
             <input
               value={schemeQuery}
               onChange={e => setSchemeQuery(e.target.value)}
-              placeholder="Search by keyword or scheme"
+              placeholder={t?.healthSearchPlaceholder || "Search by keyword or scheme"}
             />
           </div>
 
@@ -1034,14 +2032,14 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
             className="health-dark-btn"
             onClick={() => onToast('Launching eligibility pre-screening check…')}
           >
-            Check Eligibility <ArrowRight size={14}/>
+            {t?.healthCheckEligibility || 'Check Eligibility'} <ArrowRight size={14}/>
           </button>
 
           <button
             className="health-track-link"
             onClick={onOpenTracker}
           >
-            <Clock size={12}/> Track submitted applications
+            <Clock size={12}/> {t?.healthTrackApps || 'Track submitted applications'}
           </button>
         </section>
 
@@ -1054,25 +2052,25 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
                 <Calendar size={15}/>
               </div>
               <span className="health-alert-text">
-                Your period may start in 2 days. Log how you are feeling?
+                {t?.healthPeriodAlert || 'Your period may start in 2 days. Log how you are feeling?'}
               </span>
             </div>
             <ChevronRight size={15} style={{ color: '#9b3756', flexShrink: 0 }}/>
           </div>
 
-          <span className="health-kicker">CYCLE & SYMPTOM TRACKING</span>
-          <h3 className="health-card-title">Period & Wellness Suite</h3>
+          <span className="health-kicker">{t?.healthCycleKicker || 'CYCLE & SYMPTOM TRACKING'}</span>
+          <h3 className="health-card-title">{t?.healthPeriodSuiteTitle || 'Period & Wellness Suite'}</h3>
           <p className="health-card-subtitle">
-            Log daily flow, moods, cramps, and symptoms. View 6-month cycle length trends.
+            {t?.healthPeriodSuiteSub || 'Log daily flow, moods, cramps, and symptoms. View 6-month cycle length trends.'}
           </p>
 
           {/* 4 Segmented Tabs */}
           <div className="health-tabs-row">
             {[
-              { id: 'cycle', label: 'Cycle Length' },
-              { id: 'flow', label: 'Flow Intensity' },
-              { id: 'symptoms', label: 'Symptoms' },
-              { id: 'mood', label: 'Mood' },
+              { id: 'cycle', label: t?.healthTabs?.cycle || 'Cycle Length' },
+              { id: 'flow', label: t?.healthTabs?.flow || 'Flow Intensity' },
+              { id: 'symptoms', label: t?.healthTabs?.symptoms || 'Symptoms' },
+              { id: 'mood', label: t?.healthTabs?.mood || 'Mood' },
             ].map(tab => (
               <button
                 key={tab.id}
@@ -1088,8 +2086,8 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
           {activeTab === 'cycle' && (
             <div className="health-chart-container">
               <div className="health-chart-header">
-                <span style={{ fontWeight: 600, color: '#2b2126' }}>Cycle length (days)</span>
-                <span style={{ color: '#6d6268', fontSize: '11.5px' }}>Average: 28 days</span>
+                <span style={{ fontWeight: 600, color: '#2b2126' }}>{t?.healthCycleHeader || 'Cycle length (days)'}</span>
+                <span style={{ color: '#6d6268', fontSize: '11.5px' }}>{t?.healthCycleAvg || 'Average: 28 days'}</span>
               </div>
 
               {/* Exact SVG chart recreation matching the user's reference image */}
@@ -1176,21 +2174,27 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
           {/* Tab 2: Flow Intensity */}
           {activeTab === 'flow' && (
             <div className="health-tab-content">
-              <span className="health-sublabel">Select today's flow intensity</span>
+              <span className="health-sublabel">{t?.healthFlowSublabel || "Select today's flow intensity"}</span>
               <div className="flow-chips-grid">
-                {['Spotting', 'Light', 'Medium', 'Heavy'].map(flow => (
-                  <button
-                    key={flow}
-                    className={`flow-chip-card ${selectedFlow === flow ? 'selected' : ''}`}
-                    onClick={() => { setSelectedFlow(flow); onToast(`Logged today's flow: ${flow}`); }}
-                  >
-                    <span style={{ fontSize: '18px' }}>🩸</span>
-                    <strong>{flow}</strong>
-                    <small style={{ color: '#776d72', fontSize: '11px' }}>
-                      {flow === 'Spotting' ? 'Barely visible' : flow === 'Heavy' ? 'High absorbency' : 'Standard flow'}
-                    </small>
-                  </button>
-                ))}
+                {['Spotting', 'Light', 'Medium', 'Heavy'].map(flowKey => {
+                  const opt = t?.healthFlowOpts?.[flowKey] || {
+                    label: flowKey,
+                    desc: flowKey === 'Spotting' ? 'Barely visible' : flowKey === 'Heavy' ? 'High absorbency' : 'Standard flow'
+                  };
+                  return (
+                    <button
+                      key={flowKey}
+                      className={`flow-chip-card ${selectedFlow === flowKey ? 'selected' : ''}`}
+                      onClick={() => { setSelectedFlow(flowKey); onToast(`Logged today's flow: ${opt.label}`); }}
+                    >
+                      <span style={{ fontSize: '18px' }}>🩸</span>
+                      <strong>{opt.label}</strong>
+                      <small style={{ color: '#776d72', fontSize: '11px' }}>
+                        {opt.desc}
+                      </small>
+                    </button>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -1198,16 +2202,16 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
           {/* Tab 3: Symptoms */}
           {activeTab === 'symptoms' && (
             <div className="health-tab-content">
-              <span className="health-sublabel">Log daily symptoms</span>
+              <span className="health-sublabel">{t?.healthSymptomsSublabel || 'Log daily symptoms'}</span>
               <div className="symptom-tag-cloud">
-                {['Cramps', 'Headache', 'Fatigue', 'Bloating', 'Tender Breasts', 'Back Pain', 'Acne'].map(sym => {
-                  const has = selectedSymptoms.includes(sym);
+                {(t?.healthSymptoms || ['Cramps', 'Headache', 'Fatigue', 'Bloating', 'Tender Breasts', 'Back Pain', 'Acne']).map((sym, idx) => {
+                  const has = selectedSymptoms.includes(sym) || selectedSymptoms.includes(idx);
                   return (
                     <button
                       key={sym}
                       className={`symptom-tag ${has ? 'active' : ''}`}
                       onClick={() => {
-                        const next = has ? selectedSymptoms.filter(s => s !== sym) : [...selectedSymptoms, sym];
+                        const next = has ? selectedSymptoms.filter(s => s !== sym && s !== idx) : [...selectedSymptoms, sym];
                         setSelectedSymptoms(next);
                         onToast(`${has ? 'Removed' : 'Logged'} symptom: ${sym}`);
                       }}
@@ -1223,12 +2227,12 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
           {/* Tab 4: Mood */}
           {activeTab === 'mood' && (
             <div className="health-tab-content">
-              <span className="health-sublabel">How are you feeling today?</span>
+              <span className="health-sublabel">{t?.healthMoodSublabel || 'How are you feeling today?'}</span>
               <div className="mood-tag-cloud">
-                {[
+                {(t?.healthMoods || [
                   ['Calm', '😌'], ['Happy', '😊'], ['Anxious', '😰'],
                   ['Irritable', '😤'], ['Low Energy', '🥱'], ['Sensitive', '🥺']
-                ].map(([mood, emoji]) => (
+                ]).map(([mood, emoji]) => (
                   <button
                     key={mood}
                     className={`mood-tag ${selectedMood === mood ? 'active' : ''}`}
@@ -1243,7 +2247,7 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
 
           {/* Open complete tracker link */}
           <button className="health-open-tracker-btn" onClick={onSub}>
-            Open complete tracker <ArrowRight size={14}/>
+            {t?.healthOpenTracker || 'Open complete tracker'} <ArrowRight size={14}/>
           </button>
         </section>
 
@@ -1252,21 +2256,21 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
           {/* Card 1: Medication Schedule */}
           <section className="health-white-card">
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span className="health-kicker">MEDICATION SCHEDULE</span>
+              <span className="health-kicker">{t?.healthMedScheduleKicker || 'MEDICATION SCHEDULE'}</span>
               <div className="med-header-actions">
                 <button
                   className="med-pill-btn"
                   onClick={onOpenScanner}
                   title="Scan package QR code"
                 >
-                  <QrCode size={13}/> Scan QR
+                  <QrCode size={13}/> {t?.healthScanQr || 'Scan QR'}
                 </button>
                 <button
                   className="med-pill-btn"
                   onClick={() => setShowAddMed(v => !v)}
                   title="Add new medication"
                 >
-                  <Plus size={13}/> Add
+                  <Plus size={13}/> {t?.healthAddMed || 'Add'}
                 </button>
               </div>
             </div>
@@ -1277,13 +2281,13 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
                 className={`med-tab ${medTab === 'medicine' ? 'active' : ''}`}
                 onClick={() => setMedTab('medicine')}
               >
-                Medicine
+                {t?.healthMedTabMedicine || 'Medicine'}
               </button>
               <button
                 className={`med-tab ${medTab === 'cabinet' ? 'active' : ''}`}
                 onClick={() => setMedTab('cabinet')}
               >
-                Cabinet
+                {t?.healthMedTabCabinet || 'Cabinet'}
               </button>
             </div>
 
@@ -1324,9 +2328,9 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
                 {meds.length === 0 ? (
                   <div className="rec-scheme-empty" style={{ margin: '14px 0', padding: '24px 16px', background: 'rgba(255,255,255,0.6)', borderRadius: 14 }}>
                     <Sparkles size={24} style={{ color: '#75233e', opacity: 0.7, marginBottom: 8 }}/>
-                    <strong style={{ fontSize: '13.5px', color: '#1e151a' }}>No medications scheduled</strong>
+                    <strong style={{ fontSize: '13.5px', color: '#1e151a' }}>{t?.healthNoMedsTitle || 'No medications scheduled'}</strong>
                     <p style={{ fontSize: '11.5px', color: '#6e6268', maxWidth: '240px', margin: '4px auto 0', lineHeight: 1.45 }}>
-                      Tap "+ Add" or "Scan QR" above to log your daily prescriptions.
+                      {t?.healthNoMedsDesc || 'Tap "+ Add" or "Scan QR" above to log your daily prescriptions.'}
                     </p>
                   </div>
                 ) : (
@@ -1367,9 +2371,9 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
               <div className="cabinet-inventory-view">
                 <div className="rec-scheme-empty" style={{ margin: '14px 0', padding: '24px 16px', background: 'rgba(255,255,255,0.6)', borderRadius: 14 }}>
                   <BookOpen size={24} style={{ color: '#75233e', opacity: 0.7, marginBottom: 8 }}/>
-                  <strong style={{ fontSize: '13.5px', color: '#1e151a' }}>Medicine cabinet is empty</strong>
+                  <strong style={{ fontSize: '13.5px', color: '#1e151a' }}>{t?.healthCabinetEmptyTitle || 'Medicine cabinet is empty'}</strong>
                   <p style={{ fontSize: '11.5px', color: '#6e6268', maxWidth: '240px', margin: '4px auto 0', lineHeight: 1.45 }}>
-                    Scan packaging QR code to automatically register first-aid items and track expiration.
+                    {t?.healthCabinetEmptyDesc || 'Scan packaging QR code to automatically register first-aid items and track expiration.'}
                   </p>
                 </div>
               </div>
@@ -1378,7 +2382,7 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
 
           {/* Card 2: Emergency Reference */}
           <section className="health-white-card">
-            <span className="health-kicker-red">EMERGENCY REFERENCE</span>
+            <span className="health-kicker-red">{t?.healthEmergencyKicker || 'EMERGENCY REFERENCE'}</span>
             <div className="firstaid-tile" onClick={() => onGuide('first-aid')}>
               <div className="firstaid-info">
                 <div className="firstaid-icon-wrap">
@@ -1386,10 +2390,10 @@ function HealthPage({ onGuide, onSub, onOpenScanner, onToast, onOpenTracker, t }
                 </div>
                 <div>
                   <strong style={{ display: 'block', fontSize: '13.5px', color: '#1e151a' }}>
-                    First-Aid Emergency Guide
+                    {t?.healthFirstAidTitle || 'First-Aid Emergency Guide'}
                   </strong>
                   <small style={{ color: '#776d72', fontSize: '11.5px' }}>
-                    Quick steps for burns, fainting, CPR, and trauma.
+                    {t?.healthFirstAidSub || 'Quick steps for burns, fainting, CPR, and trauma.'}
                   </small>
                 </div>
               </div>
@@ -1535,14 +2539,14 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
         {/* Column 1: Recommended Financial Schemes */}
         <section className="wealth-white-card">
           <span className="wealth-kicker-red"><Sparkles size={12} style={{ color: '#9b3756', marginRight: 4 }}/> RECOMMENDED FOR YOU</span>
-          <h3 className="wealth-section-title">Financial Schemes</h3>
-          <p className="wealth-section-subtitle">Based on your location and profile.</p>
+          <h3 className="wealth-section-title">{t?.wealthSchemesTitle || "Financial Schemes"}</h3>
+          <p className="wealth-section-subtitle">{t?.wealthSchemesSub || "Based on your location and profile."}</p>
 
           <div className="wealth-scheme-search">
             <Search size={14} style={{ color: '#9e9198' }}/>
             <input
               type="text"
-              placeholder="Search by keyword or scheme"
+              placeholder={t?.wealthSearchPlaceholder || "Search by keyword or scheme"}
               value={keyword}
               onChange={e => setKeyword(e.target.value)}
             />
@@ -1565,7 +2569,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                   style={{ display: 'block', margin: '8px auto 0', background: 'none', border: 'none', color: '#9b3756', fontWeight: 600, cursor: 'pointer' }}
                   onClick={() => { setKeyword(''); setActiveGoalFilter(null); }}
                 >
-                  Reset filters
+                  {t?.wealthResetFilters || "Reset filters"}
                 </button>
               </div>
             ) : (
@@ -1597,7 +2601,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                 onToast('Showing all recommended schemes.');
               }}
             >
-              View all schemes <ArrowRight size={14}/>
+              {t?.wealthViewAll || "View all schemes"} <ArrowRight size={14}/>
             </button>
 
             <button
@@ -1605,7 +2609,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
               className="wealth-track-link"
               onClick={onOpenTracker}
             >
-              <Clock size={13}/> Track your applications
+              <Clock size={13}/> {t?.wealthTrackApps || "Track your applications"}
             </button>
           </div>
         </section>
@@ -1615,12 +2619,12 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
           {/* Top Hero Banner */}
           <section className="wealth-hero-card">
             <div className="wealth-hero-text">
-              <span className="wealth-hero-kicker">BUILD A BRIGHTER TOMORROW</span>
+              <span className="wealth-hero-kicker">{t?.wealthHeroKicker || "BUILD A BRIGHTER TOMORROW"}</span>
               <h2 className="wealth-hero-title">
-                Small steps,<br/>big financial freedom.
+                {t?.wealthHeroTitle || "Small steps,"}<br/>{t?.wealthHeroTitle2 || "big financial freedom."}
               </h2>
               <p className="wealth-hero-desc">
-                Explore savings, loans, insurance and investment schemes made for you.
+                {t?.wealthHeroDesc || "Explore savings, loans, insurance and investment schemes made for you."}
               </p>
               <button
                 type="button"
@@ -1631,7 +2635,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
-                Start exploring <ArrowRight size={13}/>
+                {t?.wealthStartExplore || "Start exploring"} <ArrowRight size={13}/>
               </button>
             </div>
 
@@ -1648,9 +2652,9 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                 <path d="M52 118 C72 122, 92 126, 102 128" stroke="#8d4b62" strokeWidth="1.2" strokeLinecap="round"/>
               </svg>
               <div className="wealth-illo-words">
-                <span>Plan</span>
-                <span>Save</span>
-                <span>Grow</span>
+                <span>{t?.wealthPlan || "Plan"}</span>
+                <span>{t?.wealthSave || "Save"}</span>
+                <span>{t?.wealthGrow || "Grow"}</span>
               </div>
             </div>
           </section>
@@ -1658,7 +2662,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
           {/* Bottom Explore by Goal Card */}
           <section className="wealth-white-card" id="explore-by-goal">
             <div className="wealth-goals-head">
-              <h3 className="wealth-section-title" style={{ margin: 0 }}>Explore by Goal</h3>
+              <h3 className="wealth-section-title" style={{ margin: 0 }}>{t?.wealthExploreGoalTitle || "Explore by Goal"}</h3>
               <button
                 type="button"
                 onClick={() => {
@@ -1667,10 +2671,10 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                   onToast('Viewing all categories.');
                 }}
               >
-                View all <ArrowRight size={12}/>
+                {t?.wealthViewAllGoals || "View all"} <ArrowRight size={12}/>
               </button>
             </div>
-            <p className="wealth-section-subtitle">Find the right schemes and tools for your needs.</p>
+            <p className="wealth-section-subtitle">{t?.wealthExploreGoalSub || "Find the right schemes and tools for your needs."}</p>
 
             <div className="wealth-goals-grid">
               {GOAL_CARDS.map(g => (
@@ -1702,7 +2706,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
         <div className="wealth-col-right">
           {/* Top Card: Your Financial Snapshot */}
           <section className="wealth-white-card">
-            <h3 className="wealth-section-title" style={{ margin: 0 }}>Your Financial Snapshot</h3>
+            <h3 className="wealth-section-title" style={{ margin: 0 }}>{t?.wealthSnapshotTitle || "Your Financial Snapshot"}</h3>
             <p className="wealth-section-subtitle" style={{ margin: '4px 0 16px 0' }}>Track and manage your progress.</p>
 
             <div className="snapshot-rows-list">
@@ -1724,7 +2728,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                     <Bookmark size={18}/>
                   </div>
                   <div className="snapshot-info">
-                    <strong>Saved Schemes</strong>
+                    <strong>{t?.wealthSavedSchemes || "Saved Schemes"}</strong>
                     <small>{savedSchemes.length === 0 ? '0 schemes' : `${savedSchemes.length} scheme${savedSchemes.length > 1 ? 's' : ''}`}</small>
                   </div>
                 </div>
@@ -1743,7 +2747,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                     <FileText size={18}/>
                   </div>
                   <div className="snapshot-info">
-                    <strong>Applications</strong>
+                    <strong>{t?.wealthApplications || "Applications"}</strong>
                     <small>{applications.length === 0 ? '0 in progress' : `${applications.length} in progress`}</small>
                   </div>
                 </div>
@@ -1762,7 +2766,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                     <Calendar size={18}/>
                   </div>
                   <div className="snapshot-info">
-                    <strong>Upcoming Deadlines</strong>
+                    <strong>{t?.wealthDeadlines || "Upcoming Deadlines"}</strong>
                     <small>{deadlines.length ? `${deadlines.length} this month` : '0 this month'}</small>
                   </div>
                 </div>
@@ -1781,7 +2785,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                     <Edit3 size={18}/>
                   </div>
                   <div className="snapshot-info">
-                    <strong>Personal Notes</strong>
+                    <strong>{t?.wealthNotes || "Personal Notes"}</strong>
                     <small>{notes.length ? `${notes.length} note${notes.length > 1 ? 's' : ''}` : 'Your saved information'}</small>
                   </div>
                 </div>
@@ -1792,7 +2796,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
 
           {/* Bottom Card: Need Help? */}
           <section className="wealth-white-card">
-            <h3 className="wealth-section-title" style={{ margin: 0 }}>Need Help?</h3>
+            <h3 className="wealth-section-title" style={{ margin: 0 }}>{t?.wealthNeedHelpTitle || "Need Help?"}</h3>
             <p className="wealth-section-subtitle" style={{ margin: '4px 0 16px 0' }}>Get guidance from verified experts or helplines.</p>
 
             <div className="wealth-help-list">
@@ -1807,7 +2811,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                     <Phone size={17}/>
                   </div>
                   <div className="wealth-help-info">
-                    <strong>Talk to a Financial Helpline</strong>
+                    <strong>{t?.wealthHelpHelpline || "Talk to a Financial Helpline"}</strong>
                     <small>1800 11 4000</small>
                   </div>
                 </div>
@@ -1826,8 +2830,8 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                     <MessageSquare size={17}/>
                   </div>
                   <div className="wealth-help-info">
-                    <strong>Ask Unnati</strong>
-                    <small>Get step-by-step guidance</small>
+                    <strong>{t?.wealthHelpAsk || "Ask Unnati"}</strong>
+                    <small>{t?.wealthHelpAskSub || "Get step-by-step guidance"}</small>
                   </div>
                 </div>
                 <ChevronRight size={15} style={{ color: '#887d82' }}/>
@@ -1847,7 +2851,7 @@ function WealthPage({ applications = [], onGuide, onToast, onNav, onOpenTracker,
                   <div className="wealth-help-info">
                     <strong style={{ color: '#75233e' }}>Financial Literacy Guide</strong>
                     <small style={{ color: '#6e6268', fontSize: '11px', lineHeight: 1.35 }}>
-                      Learn the basics of banking, saving, investing and avoiding fraud.
+                      {t?.wealthHelpGuideSub || "Learn the basics of banking, saving, investing and avoiding fraud."}
                     </small>
                   </div>
                 </div>
@@ -2108,7 +3112,7 @@ function FinancePage({ onToast, t }) {
 
         {/* ── Column 1: Verified Schemes ── */}
         <section className="finance-white-card">
-          <h3 className="finance-card-title" style={{ margin: 0 }}>Verified Schemes</h3>
+          <h3 className="finance-card-title" style={{ margin: 0 }}>{t?.finVerifiedSchemes || "Verified Schemes"}</h3>
           <p className="wealth-section-subtitle" style={{ margin: '4px 0 16px 0' }}>
             Government programs matching your location &amp; requirements.
           </p>
@@ -2117,7 +3121,7 @@ function FinancePage({ onToast, t }) {
             <Search size={14} style={{ color: '#9e9198' }} />
             <input
               type="text"
-              placeholder="Search by keyword or scheme"
+              placeholder={t?.finSearchPlaceholder || "Search by keyword or scheme"}
               value={schemeQuery}
               onChange={e => setSchemeQuery(e.target.value)}
             />
@@ -2155,7 +3159,7 @@ function FinancePage({ onToast, t }) {
             className="finance-eligibility-btn"
             onClick={() => onToast('Checking your eligibility for government programs…')}
           >
-            Check Eligibility <ArrowRight size={14} />
+            {t?.finCheckEligibility || "Check Eligibility"} <ArrowRight size={14} />
           </button>
         </section>
 
@@ -2163,8 +3167,8 @@ function FinancePage({ onToast, t }) {
         <section className="finance-white-card">
           <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
             <div>
-              <span className="finance-kicker-red">Monthly Budget Tracking</span>
-              <h3 className="finance-card-title-dark">Expense Tracker</h3>
+              <span className="finance-kicker-red">{t?.finBudgetTracking || "Monthly Budget Tracking"}</span>
+              <h3 className="finance-card-title-dark">{t?.finExpenseTracker || "Expense Tracker"}</h3>
             </div>
             <button
               type="button"
@@ -2178,7 +3182,7 @@ function FinancePage({ onToast, t }) {
           <div style={{ marginTop: 14 }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 6 }}>
               <span style={{ fontSize: '15px', fontWeight: 700, color: '#1e151a' }}>
-                Spent ₹{totalSpent.toLocaleString()} of ₹{budgetLimit.toLocaleString()}
+                {t?.finSpent || "Spent ₹"}{totalSpent.toLocaleString()} {t?.finOf || "of ₹"}{budgetLimit.toLocaleString()}
               </span>
             </div>
             <div className="finance-progress-track">
@@ -2191,21 +3195,21 @@ function FinancePage({ onToast, t }) {
               />
             </div>
             <span className="finance-remaining-text">
-              ₹{remaining.toLocaleString()} remaining in monthly allowance
+              ₹{remaining.toLocaleString()} {t?.finRemaining || "remaining in monthly allowance"}
             </span>
           </div>
 
           {showAdd && (
             <form className="finance-add-form" onSubmit={handleAddExpense} style={{ marginTop: 14 }}>
               <input
-                placeholder="Description (e.g. Groceries, School fees…)"
+                placeholder={t?.finDescPlaceholder || "Description (e.g. Groceries, School fees…)"}
                 value={newTitle}
                 onChange={e => handleTitleChange(e.target.value)}
                 required
               />
               <input
                 type="number"
-                placeholder="Amount (₹)"
+                placeholder={t?.finAmountPlaceholder || "Amount (₹)"}
                 value={newAmount}
                 onChange={e => setNewAmount(e.target.value)}
                 required
@@ -2223,7 +3227,7 @@ function FinancePage({ onToast, t }) {
                   </button>
                 ))}
               </div>
-              <button type="submit" className="finance-dark-btn" style={{ padding: '8px 14px', borderRadius: 8 }}>Save Expense</button>
+              <button type="submit" className="finance-dark-btn" style={{ padding: '8px 14px', borderRadius: 8 }}>{t?.finSaveExpense || "Save Expense"}</button>
             </form>
           )}
 
@@ -2234,10 +3238,10 @@ function FinancePage({ onToast, t }) {
                 <FileText size={32} style={{ color: '#9b3756', strokeWidth: 1.5 }} />
               </div>
               <strong style={{ fontSize: '14px', color: '#1e151a', display: 'block', marginBottom: 4 }}>
-                No expenses recorded yet
+                {t?.finNoExpenses || "No expenses recorded yet"}
               </strong>
               <p style={{ fontSize: '12px', color: '#6e6268', maxWidth: 280, margin: '0 auto', lineHeight: 1.45 }}>
-                Click "+ Add Expense" above to<br/>track your daily household expenditures.
+                <span dangerouslySetInnerHTML={{ __html: t?.finClickAdd || "Click \"+ Add Expense\" above to<br/>track your daily household expenditures." }} />
               </p>
             </div>
           ) : (
@@ -2260,12 +3264,12 @@ function FinancePage({ onToast, t }) {
 
         {/* ── Column 3: Usage Overview / Monthly Limit & Alerts ── */}
         <section className="finance-white-card">
-          <span className="finance-kicker-red">Usage Overview</span>
-          <h3 className="finance-card-title-dark">Monthly Limit &amp; Alerts</h3>
+          <span className="finance-kicker-red">{t?.finUsageOverview || "Usage Overview"}</span>
+          <h3 className="finance-card-title-dark">{t?.finMonthlyLimit || "Monthly Limit & Alerts"}</h3>
 
           <div style={{ marginTop: 14 }}>
             <div className="finance-budget-utilized-row">
-              <span>Budget Utilized</span>
+              <span>{t?.finBudgetUtilized || "Budget Utilized"}</span>
               <strong>₹{totalSpent.toLocaleString()} / ₹{budgetLimit.toLocaleString()}</strong>
             </div>
             <div className="finance-utilized-track">
@@ -2277,9 +3281,9 @@ function FinancePage({ onToast, t }) {
           </div>
 
           <div className="finance-checkin-card">
-            <h4 className="finance-checkin-title">Budget Check-in</h4>
+            <h4 className="finance-checkin-title">{t?.finBudgetCheckin || "Budget Check-in"}</h4>
             <p className="finance-checkin-desc">
-              You have ₹{remaining.toLocaleString()} remaining this month.
+              {t?.finYouHave || "You have ₹"}{remaining.toLocaleString()} {t?.finRemainingMonth || "remaining this month."}
               {remaining < 2500 ? " You're close to your monthly limit for shopping." : " You are comfortably within your monthly allocation."}
             </p>
           </div>
@@ -2287,10 +3291,10 @@ function FinancePage({ onToast, t }) {
           <div className="finance-protip-section">
             <div className="finance-protip-head">
               <Sparkles size={13} style={{ color: '#75233e' }} />
-              <span>Pro-Tip</span>
+              <span>{t?.finProTip || "Pro-Tip"}</span>
             </div>
             <p className="finance-protip-desc">
-              Putting just ₹200/month into Sukanya Samriddhi or PPF earns 8.2% guaranteed return.
+              {t?.finProTipDesc || "Putting just ₹200/month into Sukanya Samriddhi or PPF earns 8.2% guaranteed return."}
             </p>
           </div>
         </section>
@@ -2301,13 +3305,13 @@ function FinancePage({ onToast, t }) {
       <section className="finance-white-card" style={{ marginTop: 24 }}>
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
           <div>
-            <h3 className="finance-card-title" style={{ margin: 0 }}>Savings Goals</h3>
+            <h3 className="finance-card-title" style={{ margin: 0 }}>{t?.finSavingsGoals || "Savings Goals"}</h3>
             <p className="wealth-section-subtitle" style={{ margin: '3px 0 0 0' }}>
-              Set your goals to stay motivated and plan better.
+              {t?.finSetGoals || "Set your goals to stay motivated and plan better."}
             </p>
           </div>
           <span style={{ fontSize: '12px', color: '#6e6268', fontWeight: 500 }}>
-            {goalsCount}/5 goals set
+            {goalsCount}/5 {t?.finGoalsSet || "goals set"}
           </span>
         </div>
 
@@ -2377,7 +3381,7 @@ function FinancePage({ onToast, t }) {
                 setSelectedScheme(null);
               }}
             >
-              Check Full Eligibility &amp; Apply <ArrowRight size={14}/>
+              {t?.finCheckFullEligibility || "Check Full Eligibility & Apply"} <ArrowRight size={14}/>
             </button>
           </div>
         </div>
@@ -2394,11 +3398,11 @@ function LivelihoodPage({ onSub, onToast, t }) {
 
       <section className="card cv-card">
         <div>
-          <p className="kicker">Career Advancement</p>
-          <h3>Professional Resume / CV Creator</h3>
-          <p className="muted">ATS-friendly formats designed for healthcare, retail, coordinator, and office roles.</p>
+          <p className="kicker">{t?.livCareerAdv || "Career Advancement"}</p>
+          <h3>{t?.livResumeCreator || "Professional Resume / CV Creator"}</h3>
+          <p className="muted">{t?.livAtsFriendly || "ATS-friendly formats designed for healthcare, retail, coordinator, and office roles."}</p>
           <button className="solid-btn" onClick={() => onSub('resume')} style={{ marginTop: 18 }}>
-            Build My Resume <ArrowRight size={13}/>
+            {t?.livBuildResume || "Build My Resume"} <ArrowRight size={13}/>
           </button>
         </div>
         <div className="resume-preview" aria-hidden style={{ marginTop: 16 }}>
@@ -2408,16 +3412,16 @@ function LivelihoodPage({ onSub, onToast, t }) {
 
       <section className="card interview-card">
         <div className="cat-icon-badge" style={{ marginBottom: 12 }}><Volume2 size={20}/></div>
-        <p className="kicker">AI Voice Practice</p>
-        <h3>Interview Simulator</h3>
-        <p className="muted">Practice real interview questions out loud in your language. Receive instant AI scores for confidence, clarity, and tone.</p>
+        <p className="kicker">{t?.livAiVoice || "AI Voice Practice"}</p>
+        <h3>{t?.livInterviewSim || "Interview Simulator"}</h3>
+        <p className="muted">{t?.livPracticeReal || "Practice real interview questions out loud in your language. Receive instant AI scores for confidence, clarity, and tone."}</p>
         <button className="solid-btn" onClick={() => onSub('interview')} style={{ marginTop: 18 }}>
-          Start Voice Practice <ArrowRight size={13}/>
+          {t?.livStartVoice || "Start Voice Practice"} <ArrowRight size={13}/>
         </button>
 
         <div style={{ marginTop: 24, paddingTop: 16, borderTop: '1px solid var(--border)' }}>
           <small className="muted" style={{ display: 'block' }}>
-            🎬 <strong>Video Guides:</strong> Watch 5-minute video tutorials on answering salary questions and introducing your past achievements confidently.
+            <span dangerouslySetInnerHTML={{ __html: t?.livVideoGuides || "🎬 <strong>Video Guides:</strong> Watch 5-minute video tutorials on answering salary questions and introducing your past achievements confidently." }} />
           </small>
         </div>
       </section>
@@ -2436,13 +3440,13 @@ function SafetyPage({ onSos, onCallMom, onToast, t }) {
       <section className="card safe-hero">
         <div>
           <p className="kicker" style={{ color: '#be2d5e' }}>24/7 Protection & Rapid Response</p>
-          <h2>Immediate Emergency Assistance</h2>
-          <p className="muted">Private emergency dispatch, discreet exit simulation, and verified helplines.</p>
+          <h2>{t?.safAssistance || "Immediate Emergency Assistance"}</h2>
+          <p className="muted">{t?.safPrivateDispatch || "Private emergency dispatch, discreet exit simulation, and verified helplines."}</p>
         </div>
 
         <button className="sos-pill-stylish" onClick={onSos}>
           <Siren size={16}/>
-          Activate Emergency SOS
+          {t?.safActivateSOS || "Activate Emergency SOS"}
         </button>
       </section>
 
@@ -2450,8 +3454,8 @@ function SafetyPage({ onSos, onCallMom, onToast, t }) {
         {/* Discreet Exit / Fake Call — labelled neutrally as "Call Mom" per frontend spec */}
         <div className="card safety-tool">
           <div className="tool-icon-circle"><Phone size={20}/></div>
-          <h3>Discreet Exit Call</h3>
-          <p className="muted">Simulates an incoming mobile phone call to exit uncomfortable or tense situations discreetly.</p>
+          <h3>{t?.safDiscreetExit || "Discreet Exit Call"}</h3>
+          <p className="muted">{t?.safSimulatesCall || "Simulates an incoming mobile phone call to exit uncomfortable or tense situations discreetly."}</p>
           <button className="solid-btn full" style={{ marginTop: 'auto' }} onClick={onCallMom}>
             <Phone size={13}/> {t.callMom || 'Call Mom'}
           </button>
@@ -2460,8 +3464,8 @@ function SafetyPage({ onSos, onCallMom, onToast, t }) {
         {/* Share Live Location */}
         <div className="card safety-tool">
           <div className="tool-icon-circle"><MapPin size={20}/></div>
-          <h3>Share Live Location</h3>
-          <p className="muted">Generates a private 2-hour encrypted GPS tracking link to send to trusted contacts.</p>
+          <h3>{t?.safShareLocation || "Share Live Location"}</h3>
+          <p className="muted">{t?.safGeneratesLink || "Generates a private 2-hour encrypted GPS tracking link to send to trusted contacts."}</p>
           <button
             className="solid-btn full"
             style={{ marginTop: 'auto' }}
@@ -2471,12 +3475,12 @@ function SafetyPage({ onSos, onCallMom, onToast, t }) {
               setActivePanel(activePanel === 'loc' ? null : 'loc');
             }}
           >
-            Copy Tracking Link <ArrowRight size={12}/>
+            {t?.safCopyLink || "Copy Tracking Link"} <ArrowRight size={12}/>
           </button>
           {activePanel === 'loc' && (
             <div className="safety-panel-expanded">
               <code className="safety-link-display">unnati.app/track/gps-safe-88319</code>
-              <small className="muted">This secure tracking link expires in 2 hours.</small>
+              <small className="muted">{t?.safLinkExpires || "This secure tracking link expires in 2 hours."}</small>
             </div>
           )}
         </div>
@@ -2484,8 +3488,8 @@ function SafetyPage({ onSos, onCallMom, onToast, t }) {
         {/* Emergency Contacts Network */}
         <div className="card safety-tool">
           <div className="tool-icon-circle"><ShieldAlert size={20}/></div>
-          <h3>Emergency Contacts</h3>
-          <p className="muted">Designate trusted contacts who will immediately receive your location during an SOS.</p>
+          <h3>{t?.safEmergencyContacts || "Emergency Contacts"}</h3>
+          <p className="muted">{t?.safDesignateContacts || "Designate trusted contacts who will immediately receive your location during an SOS."}</p>
           <button
             className="solid-btn full"
             style={{ marginTop: 'auto' }}
@@ -2575,10 +3579,10 @@ function RightsPage({ onGuide, onToast, t }) {
 
       {/* Verbatim Scripts per frontend spec */}
       <section className="card rights-card">
-        <p className="kicker">Exact Word-for-Word Scripts</p>
-        <h3>Know What to Say</h3>
+        <p className="kicker">{t?.rigExactScripts || "Exact Word-for-Word Scripts"}</p>
+        <h3>{t?.rigKnowWhatToSay || "Know What to Say"}</h3>
         <p className="muted">
-          Here is what you can say, word for word, if this happens — practical, assertive, and legal.
+          {t?.rigHereIsWhat || "Here is what you can say, word for word, if this happens — practical, assertive, and legal."}
         </p>
 
         <div className="rights-scroll-content">
@@ -2589,7 +3593,7 @@ function RightsPage({ onGuide, onToast, t }) {
 
       <div className="script-action-row">
         <button className="link-btn small" onClick={() => handleSpeak(s.text)}>
-          <Volume2 size={13}/> Listen out loud
+          <Volume2 size={13}/> {t?.rigListenOutLoud || "Listen out loud"}
         </button>
 
         <button className="solid-btn small" onClick={() => handleCopy(s.text, i)}>
@@ -2603,10 +3607,10 @@ function RightsPage({ onGuide, onToast, t }) {
 
       {/* Know Your Rights Plain-Language Explainers */}
 <section className="card say-card">
-  <p className="kicker">Plain-Language Explainers</p>
-  <h3>Know Your Legal Protections</h3>
+  <p className="kicker">{t?.rigPlainExplainers || "Plain-Language Explainers"}</p>
+  <h3>{t?.rigLegalProtections || "Know Your Legal Protections"}</h3>
   <p className="muted">
-    Understand your legal standing in plain words without confusing legal jargon.
+    {t?.rigUnderstandLegal || "Understand your legal standing in plain words without confusing legal jargon."}
   </p>
 
   <div
@@ -2621,28 +3625,28 @@ function RightsPage({ onGuide, onToast, t }) {
     }}
   >
     <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-      <strong>Workplace & POSH Protection</strong>
-      <small className="muted">Mandatory ICC committees in organizations with 10+ employees.</small>
+      <strong>{t?.rigWorkplacePosh || "Workplace & POSH Protection"}</strong>
+      <small className="muted">{t?.rigMandatoryICC || "Mandatory ICC committees in organizations with 10+ employees."}</small>
     </div>
 
     <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-      <strong>Equal Property & Inheritance Rights</strong>
-      <small className="muted">Equal rights in ancestral property under Hindu Succession Act.</small>
+      <strong>{t?.rigEqualProperty || "Equal Property & Inheritance Rights"}</strong>
+      <small className="muted">{t?.rigEqualRights || "Equal rights in ancestral property under Hindu Succession Act."}</small>
     </div>
 
     <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-      <strong>Protection from Domestic Violence</strong>
-      <small className="muted">Right to reside in shared household, interim relief & protection orders.</small>
+      <strong>{t?.rigProtectionDV || "Protection from Domestic Violence"}</strong>
+      <small className="muted">{t?.rigRightToReside || "Right to reside in shared household, interim relief & protection orders."}</small>
     </div>
 
     <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-      <strong>Free Legal Aid (NALSA)</strong>
-      <small className="muted">Every woman in India is legally entitled to free advocates in any court.</small>
+      <strong>{t?.rigFreeLegalAid || "Free Legal Aid (NALSA)"}</strong>
+      <small className="muted">{t?.rigEveryWoman || "Every woman in India is legally entitled to free advocates in any court."}</small>
     </div>
   </div>
 
         <button className="solid-btn full" onClick={() => onGuide('rights')} style={{ marginTop: 20 }}>
-          Read Full Legal Guide <ArrowRight size={13}/>
+          {t?.rigReadFullGuide || "Read Full Legal Guide"} <ArrowRight size={13}/>
         </button>
       </section>
     </div>
@@ -2935,7 +3939,8 @@ function ResumePage({ onClose, onToast, t }) {
     location: 'Jaipur, Rajasthan',
     summary: 'Dedicated community leader with 3+ years experience managing rural health awareness drives, SHG savings, and PMKVY vocational training camps.',
     skills: 'Community Outreach, First Aid Certified, Hindi & Marwari Fluency, Basic Excel, Micro-finance Recordkeeping',
-    experience: 'SHG Secretary • Gram Vikas Trust (2023 - Present)\nManaged ₹2 Lakh monthly savings collective for 22 women; assisted 45 families with PMMVY maternity benefit documentation.'
+    experience: `SHG Secretary • Gram Vikas Trust (2023 - Present)
+Managed ₹2 Lakh monthly savings collective for 22 women; assisted 45 families with PMMVY maternity benefit documentation.`
   });
 
   return (
