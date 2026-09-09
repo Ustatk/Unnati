@@ -30,6 +30,8 @@ const TRANSLATIONS = {
     signin: 'Sign in',
     askPlaceholder: 'Ask about a scheme, or how to get help...',
     tagline: 'Talk to Unnati in your language and get clear, personalized guidance — from health & financial support to opportunities, safety, and legal rights.',
+    greeting: 'Namaste! I am Unnati.',
+    intro: 'Ask me about maternity benefits, zero-collateral Mudra loans, free certified courses, POSH workplace rights, or emergency help.',
     recommendedForYou: 'Recommended for you',
     findingNearYou: 'Finding what is relevant near you…',
     checkEligibility: 'Check eligibility',
@@ -44,6 +46,8 @@ const TRANSLATIONS = {
     signin: 'लॉग इन',
     askPlaceholder: 'किसी सरकारी योजना या सहायता के बारे में पूछें…',
     tagline: 'उन्नति से अपनी भाषा में बात करें और स्पष्ट, व्यक्तिगत मार्गदर्शन पाएं — स्वास्थ्य और वित्तीय सहायता से लेकर अवसर, सुरक्षा और कानूनी अधिकारों तक।',
+    greeting: 'नमस्ते! मैं उन्नति हूँ।',
+    intro: 'मुझसे मातृत्व लाभ, बिना गारंटी वाले मुद्रा ऋण, निःशुल्क प्रमाणित पाठ्यक्रम, POSH कार्यस्थल अधिकार या आपातकालीन सहायता के बारे में पूछें।',
     recommendedForYou: 'आपके लिए अनुशंसित योजनाएं',
     findingNearYou: 'आपके क्षेत्र की योजनाएं खोजी जा रही हैं…',
     checkEligibility: 'पात्रता जांचें',
@@ -58,6 +62,8 @@ const TRANSLATIONS = {
     signin: 'साइन इन',
     askPlaceholder: 'योजना किंवा मदतीबाबत आपल्या भाषेत विचारा…',
     tagline: 'उन्नतीशी आपल्या भाषेत बोला आणि स्पष्ट मार्गदर्शन मिळवा — आरोग्य, वित्त, रोजगार, सुरक्षा आणि कायदेशीर हक्कांपर्यंत.',
+    greeting: 'नमस्कार! मी उन्नती आहे.',
+    intro: 'मातृत्व लाभ, विनातारण मुद्रा कर्ज, मोफत प्रमाणित अभ्यासक्रम, POSH कार्यस्थळ हक्क किंवा आपत्कालीन मदतीबद्दल मला विचारा.',
     recommendedForYou: 'तुमच्यासाठी शिफारस केलेल्या योजना',
     findingNearYou: 'तुमच्या जवळच्या सेवा शोधत आहोत…',
     checkEligibility: 'पात्रता तपासा',
@@ -72,6 +78,8 @@ const TRANSLATIONS = {
     signin: 'உள்நுழைக',
     askPlaceholder: 'திட்டங்கள் அல்லது உதவி குறித்து உங்கள் மொழியில் கேளுங்கள்…',
     tagline: 'உன்னதியிடம் உங்கள் தாய்மொழியில் பேசி தெளிவான வழிகாட்டலைப் பெறுங்கள் — சுகாதாரம், நிதி உதவி, பாதுகாப்பு மற்றும் சட்ட உரிமைகள் வரை.',
+    greeting: 'வணக்கம்! நான் உன்னதி.',
+    intro: 'மகப்பேறு நலன்கள், பிணையில்லா முத்ரா கடன்கள், இலவச சான்றிதழ் பயிற்சிகள், POSH பணியிட உரிமைகள் அல்லது அவசர உதவி பற்றி என்னிடம் கேளுங்கள்.',
     recommendedForYou: 'உங்களுக்கான சிறப்புத் திட்டங்கள்',
     findingNearYou: 'உங்களுக்கு அருகிலுள்ள தகவல்கள் தேடப்படுகின்றன…',
     checkEligibility: 'தகுதியை சரிபார்க்கவும்',
@@ -86,6 +94,8 @@ const TRANSLATIONS = {
     signin: 'সাইন ইন',
     askPlaceholder: 'সরকারি প্রকল্প বা আইনি অধিকার সম্পর্কে জিজ্ঞাসা করুন…',
     tagline: 'উন্নতির সাথে আপনার ভাষায় কথা বলুন এবং স্পষ্ট নির্দেশিকা পান — স্বাস্থ্য, অর্থ, কর্মসংস্থান, নিরাপত্তা ও আইনি অধিকার পর্যন্ত।',
+    greeting: 'নমস্কার! আমি উন্নতি।',
+    intro: 'মাতৃত্বকালীন সুবিধা, জামানতবিহীন মুদ্রা ঋণ, বিনামূল্যের সার্টিফিকেট কোর্স, POSH কর্মক্ষেত্রের অধিকার বা জরুরি সহায়তা সম্পর্কে আমাকে জিজ্ঞাসা করুন।',
     recommendedForYou: 'আপনার জন্য প্রস্তাবিত প্রকল্প',
     findingNearYou: 'আপনার আশেপাশের পরিষেবা খোঁজা হচ্ছে…',
     checkEligibility: 'যোগ্যতা যাচাই করুন',
@@ -100,6 +110,8 @@ const TRANSLATIONS = {
     signin: 'సైన్ ఇన్',
     askPlaceholder: 'పథకాలు లేదా సహాయం గురించి మీ భాషలో అడగండి…',
     tagline: 'ఉన్నతితో మీ భాషలో మాట్లాడి స్పష్టమైన మార్గదర్శకత్వం పొందండి — ఆరోగ్యం, ఆర్థిక తోడ్పాటు, ఉపాధి, రక్షణ మరియు చట్టపరమైన హక్కుల వరకు.',
+    greeting: 'నమస్తే! నేను ఉన్నతిని.',
+    intro: 'మాతృత్వ ప్రయోజనాలు, హామీ లేని ముద్రా రుణాలు, ఉచిత సర్టిఫైడ్ కోర్సులు, POSH కార్యాలయ హక్కులు లేదా అత్యవసర సహాయం గురించి నన్ను అడగండి.',
     recommendedForYou: 'మీ కోసం సిఫార్సు చేయబడిన పథకాలు',
     findingNearYou: 'మీ సమీపంలో ఉన్న సేవలను అన్వేషిస్తున్నాము…',
     checkEligibility: 'అర్హతను తనిఖీ చేయండి',
@@ -114,6 +126,8 @@ const TRANSLATIONS = {
     signin: 'સાઇન ઇન',
     askPlaceholder: 'સરકારી યોજના અથવા સહાય વિશે તમારી ભાષામાં પૂછો…',
     tagline: 'ઉન્નતિ સાથે તમારી ભાષામાં વાત કરો અને સ્પષ્ટ માર્ગદર્શન મેળવો — આરોગ્ય, નાણાકીય સહાય, રોજગાર, સુરક્ષા અને કાયદાકીય અધિકારો સુધી.',
+    greeting: 'નમસ્તે! હું ઉન્નતિ છું.',
+    intro: 'માતૃત્વ લાભો, કોઈ ગેરંટી વગરની મુદ્રા લોન, મફત પ્રમાણિત અભ્યાસક્રમો, POSH કાર્યસ્થળના અધિકારો અથવા કટોકટીની મદદ વિશે મને પૂછો.',
     recommendedForYou: 'તમારા માટે ભલામણ કરેલ યોજનાઓ',
     findingNearYou: 'તમારી નજીકની સેવાઓ શોધી રહ્યાં છીએ…',
     checkEligibility: 'પાત્રતા તપાસો',
@@ -352,20 +366,22 @@ function Header({ page, onNav, lang, setLang, langOpen, setLangOpen, loggedIn, o
         <img src={unnatiLogoSvg} alt="unnati" className="brand-logo-img" />
       </button>
 
-      <nav className="topnav">
-        {NAV.map(([id, defaultLabel]) => {
-          const label = t.nav?.[id] || defaultLabel;
-          return (
-            <button
-              key={id}
-              className={page === id ? 'active' : ''}
-              onClick={() => onNav(id)}
-            >
-              {label}
-            </button>
-          );
-        })}
-      </nav>
+      {loggedIn && (
+        <nav className="topnav">
+          {NAV.map(([id, defaultLabel]) => {
+            const label = t.nav?.[id] || defaultLabel;
+            return (
+              <button
+                key={id}
+                className={page === id ? 'active' : ''}
+                onClick={() => onNav(id)}
+              >
+                {label}
+              </button>
+            );
+          })}
+        </nav>
+      )}
 
       <div className="top-end">
         <button className="sos-top-btn" onClick={onSos} title="Emergency SOS">
@@ -430,8 +446,8 @@ function Landing({ chat, query, setQuery, onSend, onNav, onOpenTracker, t }) {
               <div className="land-chat-stream" ref={streamRef}>
                 {chat.length === 0 ? (
                   <div style={{ padding: '12px 8px', color: '#574a51', fontSize: '13px', lineHeight: 1.5 }}>
-                    <p style={{ fontWeight: 600, color: '#271d22', marginBottom: 6 }}>Namaste! I am Unnati.</p>
-                    <p>Ask me about maternity benefits, zero-collateral Mudra loans, free certified courses, POSH workplace rights, or emergency help.</p>
+                    <p style={{ fontWeight: 600, color: '#271d22', marginBottom: 6 }}>{t.greeting}</p>
+                    <p>{t.intro}</p>
                   </div>
                 ) : (
                   chat.map((m, i) => (
@@ -444,7 +460,7 @@ function Landing({ chat, query, setQuery, onSend, onNav, onOpenTracker, t }) {
                 <input
                   value={query}
                   onChange={e => setQuery(e.target.value)}
-                  placeholder="Ask me anything :)"
+                  placeholder={t.askPlaceholder || 'Ask me anything :)'}
                 />
                 <button
                   type="button"
@@ -462,16 +478,6 @@ function Landing({ chat, query, setQuery, onSend, onNav, onOpenTracker, t }) {
           </div>
         </div>
 
-        {/* Quick Domain Navigator Pills matching landing tone */}
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 8 }}>
-          <button className="flow-chip" onClick={() => onNav('health')}>🌸 Health & Wellness</button>
-          <button className="flow-chip" onClick={() => onNav('wealth')}>💰 SHG & Micro-Loans</button>
-          <button className="flow-chip" onClick={() => onNav('livelihood')}>📄 Resume & Careers</button>
-          <button className="flow-chip" onClick={() => onNav('finance')}>📊 Budget & Savings</button>
-          <button className="flow-chip" onClick={() => onNav('safety')}>🛡️ Emergency & Safety</button>
-          <button className="flow-chip" onClick={() => onNav('rights')}>⚖️ Legal Rights & POSH</button>
-          <button className="flow-chip sel" onClick={onOpenTracker}>📋 Track Applications</button>
-        </div>
       </div>
     </section>
   );
