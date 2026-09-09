@@ -285,6 +285,15 @@ export default function App() {
     setToast('Welcome to Unnati! Your preferences and profile are active.');
   };
 
+  const signOut = () => {
+  localStorage.removeItem('unnati-loggedin');
+  setLoggedIn(false);
+  setAuthOpen(false);
+  setAuthStep('prefs');
+  navigate('landing');
+  setToast('You have been signed out.');
+};
+
   const requestLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -303,7 +312,7 @@ export default function App() {
         lang={lang} setLang={setLang} langOpen={langOpen} setLangOpen={setLangOpen}
         loggedIn={loggedIn}
         onAuthOpen={() => { setAuthStep(loggedIn ? 'login' : 'prefs'); setAuthOpen(true); }}
-        onSos={() => setSos(true)}
+        onSignOut={signOut}onSos={() => setSos(true)}
         t={t}
       />
 
@@ -352,7 +361,7 @@ export default function App() {
 }
 
 /* ─── header ─────────────────────────────────────────────── */
-function Header({ page, onNav, lang, setLang, langOpen, setLangOpen, loggedIn, onAuthOpen, onSos, t }) {
+function Header({ page, onNav, lang, setLang, langOpen, setLangOpen, loggedIn, onAuthOpen, onSignOut, onSos, t }) {
   const ref = useRef(null);
   useEffect(() => {
     const fn = (e) => { if (ref.current && !ref.current.contains(e.target)) setLangOpen(false); };
@@ -408,9 +417,17 @@ function Header({ page, onNav, lang, setLang, langOpen, setLangOpen, loggedIn, o
         </div>
 
         {loggedIn
-          ? <button className="avatar-btn" onClick={onAuthOpen} title="Account Profile">U</button>
-          : <button className="signin-btn" onClick={onAuthOpen}>{t.signin || 'Sign in'}</button>
-        }
+  ? (
+    <button className="signin-btn" onClick={onSignOut}>
+      Sign out
+    </button>
+  )
+  : (
+    <button className="signin-btn" onClick={onAuthOpen}>
+      {t.signin || 'Sign in'}
+    </button>
+  )
+}
       </div>
     </header>
   );
@@ -589,7 +606,7 @@ function SchemePanel({ area = 'government schemes', onToast, onOpenTracker }) {
             className="scheme-list-item"
             onClick={() => onToast && onToast(`${s.name} — eligibility criteria and application checklist loaded.`)}
           >
-            <span className="scheme-item-tag">{s.tag}</span>
+            
             <strong>{s.name}</strong>
             <small>{s.desc}</small>
           </div>
@@ -2564,48 +2581,65 @@ function RightsPage({ onGuide, onToast, t }) {
           Here is what you can say, word for word, if this happens — practical, assertive, and legal.
         </p>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 14, marginTop: 16 }}>
-          {SCRIPTS.map((s, i) => (
-            <div key={i} className="verbatim-box">
-              <span className="question-tag">{s.context}</span>
-              <p>{s.text}</p>
-              <div className="script-action-row">
-                <button className="link-btn small" onClick={() => handleSpeak(s.text)}>
-                  <Volume2 size={13}/> Listen out loud
-                </button>
-                <button className="solid-btn small" onClick={() => handleCopy(s.text, i)}>
-                  <Copy size={12}/> {copiedIdx === i ? 'Copied!' : 'Copy Script'}
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
+        <div className="rights-scroll-content">
+  {SCRIPTS.map((s, i) => (
+    <div key={i} className="verbatim-box">
+      <span className="question-tag">{s.context}</span>
+      <p>{s.text}</p>
+
+      <div className="script-action-row">
+        <button className="link-btn small" onClick={() => handleSpeak(s.text)}>
+          <Volume2 size={13}/> Listen out loud
+        </button>
+
+        <button className="solid-btn small" onClick={() => handleCopy(s.text, i)}>
+          <Copy size={12}/> {copiedIdx === i ? 'Copied!' : 'Copy Script'}
+        </button>
+      </div>
+    </div>
+  ))}
+</div>
       </section>
 
       {/* Know Your Rights Plain-Language Explainers */}
-      <section className="card say-card">
-        <p className="kicker">Plain-Language Explainers</p>
-        <h3>Know Your Legal Protections</h3>
-        <p className="muted">Understand your legal standing in plain words without confusing legal jargon.</p>
+<section className="card say-card">
+  <p className="kicker">Plain-Language Explainers</p>
+  <h3>Know Your Legal Protections</h3>
+  <p className="muted">
+    Understand your legal standing in plain words without confusing legal jargon.
+  </p>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginTop: 18 }}>
-          <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-            <strong>Workplace & POSH Protection</strong>
-            <small className="muted">Mandatory ICC committees in organizations with 10+ employees.</small>
-          </div>
-          <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-            <strong>Equal Property & Inheritance Rights</strong>
-            <small className="muted">Equal rights in ancestral property under Hindu Succession Act.</small>
-          </div>
-          <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-            <strong>Protection from Domestic Violence</strong>
-            <small className="muted">Right to reside in shared household, interim relief & protection orders.</small>
-          </div>
-          <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
-            <strong>Free Legal Aid (NALSA)</strong>
-            <small className="muted">Every woman in India is legally entitled to free advocates in any court.</small>
-          </div>
-        </div>
+  <div
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 12,
+      marginTop: 18,
+      maxHeight: '420px',
+      overflowY: 'auto',
+      paddingRight: '6px'
+    }}
+  >
+    <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
+      <strong>Workplace & POSH Protection</strong>
+      <small className="muted">Mandatory ICC committees in organizations with 10+ employees.</small>
+    </div>
+
+    <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
+      <strong>Equal Property & Inheritance Rights</strong>
+      <small className="muted">Equal rights in ancestral property under Hindu Succession Act.</small>
+    </div>
+
+    <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
+      <strong>Protection from Domestic Violence</strong>
+      <small className="muted">Right to reside in shared household, interim relief & protection orders.</small>
+    </div>
+
+    <div className="app-card-item" onClick={() => onGuide('rights')} style={{ cursor: 'pointer' }}>
+      <strong>Free Legal Aid (NALSA)</strong>
+      <small className="muted">Every woman in India is legally entitled to free advocates in any court.</small>
+    </div>
+  </div>
 
         <button className="solid-btn full" onClick={() => onGuide('rights')} style={{ marginTop: 20 }}>
           Read Full Legal Guide <ArrowRight size={13}/>
@@ -3413,7 +3447,6 @@ function AuthModal({ lang, setLang, step, setStep, onClose, onDone, onLocation, 
             <h3>Empowering Every Woman</h3>
             <p>Save your progress, track your scheme applications, and keep Unnati tailored in your language.</p>
           </div>
-          <div className="illo-badge">🔒 100% Private & Encrypted</div>
         </div>
 
         <div className="auth-form">

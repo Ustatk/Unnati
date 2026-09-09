@@ -2041,7 +2041,30 @@ input, textarea, select { font: inherit; color: inherit; }
   box-shadow: 0 4px 14px rgba(117, 35, 62, 0.06);
   transform: translateY(-1px);
 }
+.rights-scroll-content {
+  max-height: 360px;
+  overflow-y: auto;
+  margin-top: 16px;
+  padding-right: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  scroll-behavior: smooth;
+}
 
+.rights-scroll-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.rights-scroll-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(80, 60, 70, 0.25);
+}
+
+.explainer-scroll {
+  gap: 12px;
+  margin-top: 18px;
+}
 .firstaid-info {
   display: flex;
   align-items: center;
@@ -2273,7 +2296,7 @@ input, textarea, select { font: inherit; color: inherit; }
   justify-content: space-between;
   align-items: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 0 4px 22px rgba(80, 25, 45, 0.04);
 }
 
